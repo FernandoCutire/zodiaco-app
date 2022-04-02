@@ -183,10 +183,19 @@
 }
 
 /*CONTENIDO DE LA TABLA ZODIAC*/
+tr,td{
+   text-align: center;
+   padding: 2rem;
+   text-orientation: 2rem;
+}
+ 
+
 
 .tabla-zodiac{
+ 
+  padding: 2rem;
    text-align: center;
-  background-color: #369C6E;
+  background-color: #fff;
   border-color: #222;
   border-radius: 10px;
 }
@@ -197,7 +206,6 @@
 
   .footer {
     width:100%;
-      margin-bottom: var(--header-height);
       padding: 2rem;
       text-align: center;
       color: var(--white-font);

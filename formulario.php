@@ -171,8 +171,9 @@ function formulario()
 </section>
 
 <section class="section">
+  <div class="tabla-zodiac">
 <table>
-<tbody class="tabla-zodiac">
+
 <tr>
 <td>Aries</td>
 <td>21 de marzo – 20 de abril</td>
@@ -221,9 +222,8 @@ function formulario()
 <td>Piscis</td>
 <td>20 de febrero – 20 de marzo</td>
 </tr>
-</tbody>
 </table>
-
+</div>
 </section>
 
 <?php }  ?>
