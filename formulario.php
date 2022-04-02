@@ -171,7 +171,7 @@ function formulario()
 </section>
 
 <section class="section">
-<table >
+<table>
 <tbody class="tabla-zodiac">
 <tr>
 <td>Aries</td>
