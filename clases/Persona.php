@@ -3,31 +3,30 @@
 class Persona
 {
     private $nombre;
+    private $apellido;
     private $diaUsuario;
     private $mesUsuario;
-    private $anioUsuario;
+    private $yearUsuario;
     private $edad;
 
-    function set_nombre($nombre)
+    /**
+     * @param $nombre
+     * @return void
+     */
+    function setNombre($nombre)
     {
         $this->nombre = $nombre;
     }
 
 
-    function get_nombre()
+    /**
+     * @return mixed
+     */
+    function getNombre()
     {
         return $this->nombre;
     }
 
-    function set_fecha($fecha_nacimiento)
-    {
-        $this->fecha_nacimiento = $fecha_nacimiento;
-    }
-
-    function get_fecha()
-    {
-        return $this->fecha_nacimiento;
-    }
 
     /**
      * @return mixed
@@ -69,6 +68,69 @@ class Persona
         $this->setEdad($edad);
     }
 
+    /**
+     * @return mixed
+     */
+    public function getApellido()
+    {
+        return $this->apellido;
+    }
+
+    /**
+     * @param mixed $apellido
+     */
+    public function setApellido($apellido)
+    {
+        $this->apellido = $apellido;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDiaUsuario()
+    {
+        return $this->diaUsuario;
+    }
+
+    /**
+     * @param mixed $diaUsuario
+     */
+    public function setDiaUsuario($diaUsuario)
+    {
+        $this->diaUsuario = $diaUsuario;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMesUsuario()
+    {
+        return $this->mesUsuario;
+    }
+
+    /**
+     * @param mixed $mesUsuario
+     */
+    public function setMesUsuario($mesUsuario)
+    {
+        $this->mesUsuario = $mesUsuario;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getYearUsuario()
+    {
+        return $this->yearUsuario;
+    }
+
+    /**
+     * @param mixed $yearUsuario
+     */
+    public function setYearUsuario($yearUsuario)
+    {
+        $this->yearUsuario = $yearUsuario;
+    }
+
 }
 
-?>
