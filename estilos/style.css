@@ -135,18 +135,35 @@
   }
 
   /*SECTION DE FORMULARIO*/
-/*
-  .formulario{
-   background-color: var(--third-color);
-  }*/
-  input{
-    height: 32px;
-    width: 300px;
-  }
 
+  .formulario{
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;  }
+
+
+  input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
   input .del, .sub{
     width: 80px;
   }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=reset]:hover {
+    background-color: #b71c1cc0;
+
+  }
+
 
   .center{
     text-align: center;
@@ -177,16 +194,26 @@
     text-decoration: none;
     
   }
+  
 .nacimiento, .form-fecha{
-  height: 32px;
-  width: 200px;
+  height: 50px;
+  width: 120px;
+}
+
+option{
+  scroll-behavior: smooth;
+}
+label{
+  font-weight: bold;
 }
 
 /*CONTENIDO DE LA TABLA ZODIAC*/
 tr,td{
+  left: 50%;
    text-align: center;
    padding: 2rem;
    text-orientation: 2rem;
+   border: #222;
 }
  
 
@@ -195,7 +222,7 @@ tr,td{
  
   padding: 2rem;
    text-align: center;
-  background-color: #fff;
+  background-color: #888;
   border-color: #222;
   border-radius: 10px;
 }
@@ -212,3 +239,28 @@ tr,td{
       background-color: #222;
       margin-bottom: 0;
     }
+
+
+  .section_resultado {
+    margin-top: 3rem;
+    text-align: center;
+    border-color: #2222;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: var(--container-width);
+      min-height: 100vh;
+    }
+    .persona{
+      text-transform: uppercase;
+      color: #1A3494;
+    }
+
+    .title_result{
+font-size: 3rem;
+padding: 2rem;
+background-color: #1A3494;
+color: #fff;
+border-radius: 20px;
+    }
+  

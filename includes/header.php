@@ -24,10 +24,10 @@ function encabezado()
        <h1>Tu Horoscopo</h1>
         </div>
         <nav class="menu">
-          <a href="#inicio">Inicio</a> 
-          <a href="#Resultados">Resultados</a>
-          <a href="#Signos">Signos Zodiacales</a>
-          <a href="#contacto">Contacto</a>
+          <a href="inicio.php">Inicio</a> 
+          <a href="resultados.php">Resultados</a>
+          <a href="signos.php">Signos Zodiacales</a>
+          <a href="contacto.php">Contacto</a>
         </nav>
       </section>
 </header>

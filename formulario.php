@@ -10,21 +10,16 @@ function formulario()
 <section class="section">
 
   <div class="formulario"><br><br>
-  <form method="POST" action="http://localhost/zodiaco-app-main/php/fechas.php"><br>
+  <form method="POST" action="http://localhost/zodiaco-app-main/resultados.php"><br>
 
-    <label for="fname">Nombre:</label><br>
-    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre"><br><br>
-
-    <label for="lname">Apellido:</label><br>
-    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido"><br><br>
-
-    <label for="datemax">fecha de Nacimiento:</label><br>
-    <!-- <input class="nacimiento"type="text" id="dia" name="dia" max="2022-12-31" placeholder="dd">
-    <input class="nacimiento" type="text" id="mes" name="mes" max="2022-12-31"placeholder="mm">
-    <input class="nacimiento" type="text" id="año" name="año" max="2022-12-31"placeholder="yyyy"> -->
     
+    <label>Nombre:  </label>
+    <input type="text" name="nombre" placeholder="Ingrese su Nombre" autocomplete="off"> <br><br>
 
+    <label>Apellido:  </label>
+    <input type="text" name="apellido" placeholder="Ingrese su Apellido" autocomplete="off"><br><br>
 
+    <label for="datemax">fecha de Nacimiento:</label>
     <select name="dia" class="form-fecha">
       <option value="01">01</option>
       <option value="02">02</option>
@@ -170,61 +165,7 @@ function formulario()
 </div>
 </section>
 
-<section class="section">
-  <div class="tabla-zodiac">
-<table>
 
-<tr>
-<td>Aries</td>
-<td>21 de marzo – 20 de abril</td>
-</tr>
-<tr>
-<td>Tauro</td>
-<td>21 de abril – 21 de mayo</td>
-</tr>
-<tr>
-<td>Géminis</td>
-<td>22 de mayo – 21 de junio</td>
-</tr>
-<tr>
-<td>Cáncer</td>
-<td>22 de junio – 23 de julio</td>
-</tr>
-<tr>
-<td>Leo</td>
-<td>23 de julio – 23 de agosto</td>
-</tr>
-<tr>
-<td>Virgo</td>
-<td>24 de agosto – 23 de septiembre</td>
-</tr>
-<tr>
-<td>Libra</td>
-<td>24 de septiembre – 23 de octubre</td>
-</tr>
-<tr>
-<td>Escorpio</td>
-<td>24 de octubre – 22 de noviembre</td>
-</tr>
-<tr>
-<td>Sagitario</td>
-<td>23 de noviembre – 21 de diciembre</td>
-</tr>
-<tr>
-<td>Capricornio</td>
-<td>22 de diciembre – 20 de enero</td>
-</tr>
-<tr>
-<td>Acuario</td>
-<td>21 de enero – 19 de febrero</td>
-</tr>
-<tr>
-<td>Piscis</td>
-<td>20 de febrero – 20 de marzo</td>
-</tr>
-</table>
-</div>
-</section>
 
 <?php }  ?>
 <?include ('includes/pie_pag.php');
