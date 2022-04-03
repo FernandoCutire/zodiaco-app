@@ -7,6 +7,6 @@
   <p>Creado por: <b>Fernando Cutire & Hellynger St Rose</b></p>
   <p>Arquitectura y Desarrollo de Aplicaciones Web</p>
  <p> Laboratorio 1</p>
-
+   <p>Todos los derechos reservados <?php echo date("Y") ?> </p>
 </footer>
 <?php  }  ?>

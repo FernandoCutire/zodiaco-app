@@ -3,6 +3,8 @@
 class signoZodiacales {
   private $signoZodiacal;
   private $nombreCaballero;
+  private $lectura;
+  private $descCaballero;
 
     /**
      * @return mixed

@@ -9,8 +9,10 @@ function formulario()
 ?>
 <section class="section">
 
-  <div class="formulario"><br><br>
-  <form method="POST" action="http://localhost/zodiaco-app-main/resultados.php"><br>
+    <h1>Formulario</h1>
+
+    <div class="formulario"><br><br>
+  <form method="POST" action="resultados.php"><br>
 
     
     <label>Nombre:  </label>
@@ -19,7 +21,7 @@ function formulario()
     <label>Apellido:  </label>
     <input type="text" name="apellido" placeholder="Ingrese su Apellido" autocomplete="off"><br><br>
 
-    <label for="datemax">fecha de Nacimiento:</label>
+    <label for="datemax">Fecha de Nacimiento:</label>
     <select name="dia" class="form-fecha">
       <option value="01">01</option>
       <option value="02">02</option>

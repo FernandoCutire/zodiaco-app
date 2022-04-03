@@ -48,7 +48,7 @@
   
   .header {
     position: sticky;
-    z-index: 997;
+    z-index: 2;
     top: 0;
     padding: 2rem;
     background-color: var(--main-color);

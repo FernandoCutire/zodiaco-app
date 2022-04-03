@@ -19,15 +19,15 @@ function encabezado()
     <section class="container"> 
       
         <div class="logo"> 
-           <a href="index.html">
+           <a href="./inicio.php">
         <img class="horoscopo" src="imagenes/horoscopo.png" alt="zodiac"><span> </span></a>
        <h1>Tu Horoscopo</h1>
         </div>
         <nav class="menu">
           <a href="inicio.php">Inicio</a> 
           <a href="resultados.php">Resultados</a>
-          <a href="signos.php">Signos Zodiacales</a>
-          <a href="contacto.php">Contacto</a>
+          <a href="https://doc.clickup.com/31045686/d/h/xke1p-283/8ec2db1806fa6a4" target="_blank" >Signos Zodiacales</a>
+          <a href="https://github.com/FernandoCutire/zodiaco-app" target="_blank">Contacto</a>
         </nav>
       </section>
 </header>
