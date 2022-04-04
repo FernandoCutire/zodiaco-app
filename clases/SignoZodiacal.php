@@ -269,7 +269,7 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
     // Funciones de desarrollo
     public function getZodiaco($dUsr, $mUsr)
     {
-        switch($mUsr) {
+        switch ($mUsr) {
             case 1:
                 if ($dUsr < 21) {
                     $this->getZodiacal($this->capricornio);
@@ -328,45 +328,44 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
 
             case 8:
                 if ($dUsr < 24) {
-                    $this->getLeo($dUsr, $mUsr, $this->leo);
+                    $this->getZodiacal($this->leo);
                 } else {
-                    $this->getVirgo($dUsr, $mUsr, $this->virgo);
+                    $this->getZodiacal($this->virgo);
                 }
                 break;
 
             case 9:
                 if ($dUsr < 23) {
-                    $this->getVirgo($dUsr, $mUsr, $this->virgo);
+                    $this->getZodiacal($this->virgo);
                 } else {
-                    $this->getLibra($dUsr, $mUsr, $this->libra);
+                    $this->getZodiacal($this->libra);
                 }
                 break;
 
             case 10:
                 if ($dUsr < 23) {
-                    $this->getLibra($dUsr, $mUsr, $this->libra);
+                    $this->getZodiacal($this->libra);
                 } else {
-                    $this->getEscorpio($dUsr, $mUsr, $this->escorpio);
+                    $this->getZodiacal($this->escorpio);
                 }
                 break;
 
             case 11:
                 if ($dUsr < 23) {
-                    $this->getEscorpio($dUsr, $mUsr, $this->escorpio);
+                    $this->getZodiacal($this->escorpio);
                 } else {
-                    $this->getSagitario($dUsr, $mUsr, $this->sagitario);
+                    $this->getZodiacal($this->sagitario);
                 }
                 break;
 
             case 12:
                 if ($dUsr < 21) {
-                    $this->getSagitario($dUsr, $mUsr, $this->sagitario);
+                    $this->getZodiacal($this->sagitario);
                 } else {
-                    $this->getCapricornio($dUsr, $mUsr, $this->capricornio);
+                    $this->getZodiacal($this->capricornio);
                 }
                 break;
         }
-
 
 
     }
@@ -413,8 +412,7 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
         $mes_final = $tauro['Mes_fin'];
 
         if ($mesnac === $mes_inicial || $mesnac === $mes_final) {
-            if ($dUsrnac >= $dUsr_inicial || $dUsrnac <= $dUsr_final)
-            {
+            if ($dUsrnac >= $dUsr_inicial || $dUsrnac <= $dUsr_final) {
                 $this->setSignoZodiacal($tauro['Signo']);
                 $this->setNombreCaballero($tauro['NCaballero']);
                 $this->setLectura($tauro['Lectura']);
