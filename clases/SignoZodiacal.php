@@ -320,9 +320,9 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
 
             case 7:
                 if ($dUsr < 22) {
-                    $this->getCancer($dUsr, $mUsr, $this->cancer);
+                    $this->getZodiacal($this->cancer);
                 } else {
-                    $this->getLeo($dUsr, $mUsr, $this->leo);
+                    $this->getZodiacal($this->leo);
                 }
                 break;
 
