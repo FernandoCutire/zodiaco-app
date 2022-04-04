@@ -15,7 +15,7 @@ $per->setApellido($_POST["apellido"]);
 $per->setDiaUsuario($_POST['dia']);
 $per->setMesUsuario($_POST['mes']);
 $per->setYearUsuario($_POST['anio']);
-echo $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
+$signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
 ?>
 
 <section class="section_resultado">

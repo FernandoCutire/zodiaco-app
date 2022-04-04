@@ -1,4 +1,3 @@
-, "Imagen" => "./imagenes/caballeros/Milo_Escorpio-zodiaco.jpg",
 <?php
 
 class SignoZodiacal
