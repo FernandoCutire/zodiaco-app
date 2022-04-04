@@ -4,6 +4,7 @@ class SignoZodiacal
 {
     private $signoZodiacal;
     private $lectura;
+    private $variable;
     private $nombreCaballero;
     private $imagen;
     private $descCaballero;
@@ -271,55 +272,49 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
         switch($mUsr) {
             case 1:
                 if ($dUsr < 21) {
-                    $this->setSignoZodiacal($this->capricornio['Signo']);
-                    $this->setNombreCaballero($this->capricornio['NCaballero']);
-                    $this->setLectura($this->capricornio['Lectura']);
-                    $this->setDescCaballero($this->capricornio['DesCaballero']);
-                    $this->setFuente($this->capricornio['Fuente']);
-                    $this->setImagen($this->capricornio['Imagen']);
-                    $this->setFechaLarga($this->capricornio['FechaLarga']);
+                    $this->getZodiacal($this->capricornio);
                 } else {
-                    $this->getAcuario($dUsr, $mUsr, $this->acuario);
+                    $this->getZodiacal($this->acuario);
                 }
                 break;
 
             case 2:
                 if ($dUsr < 20) {
-                    $this->getAcuario($dUsr, $mUsr, $this->acuario);
+                    $this->getZodiacal($this->acuario);
                 } else {
-                    $this->getPiscis($dUsr, $mUsr, $this->piscis);
+                    $this->getZodiacal($this->piscis);
                 }
                 break;
 
             case 3:
                 if ($dUsr < 21) {
-                    $this->getPiscis($dUsr, $mUsr, $this->piscis);
+                    $this->getZodiacal($this->piscis);
                 } else {
-                    $this->getAries($dUsr, $mUsr, $this->aries);
+                    $this->getZodiacal($this->aries);
                 }
                 break;
 
             case 4:
                 if ($dUsr < 21) {
-                    $this->getAries($dUsr, $mUsr, $this->aries);
+                    $this->getZodiacal($this->aries);
                 } else {
-                    $this->getTauro($dUsr, $mUsr, $this->tauro);
+                    $this->getZodiacal($this->tauro);
                 }
                 break;
 
             case 5:
                 if ($dUsr < 20) {
-                    $this->getTauro($dUsr, $mUsr, $this->tauro);
+                    $this->getZodiacal($this->tauro);
                 } else {
-                    $this->getGeminis($dUsr, $mUsr, $this->geminis);
+                    $this->getZodiacal($this->geminis);
                 }
                 break;
 
             case 6:
                 if ($dUsr < 22) {
-                    $this->getGeminis($dUsr, $mUsr, $this->geminis);
+                    $this->getZodiacal($this->geminis);
                 } else {
-                    $this->getCancer($dUsr, $mUsr, $this->cancer);
+                    $this->getZodiacal($this->cancer);
                 }
                 break;
 
@@ -376,6 +371,17 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
 
     }
 
+
+    function getZodiacal($signo)
+    {
+        $this->setSignoZodiacal($signo['Signo']);
+        $this->setNombreCaballero($signo['NCaballero']);
+        $this->setLectura($signo['Lectura']);
+        $this->setDescCaballero($signo['DesCaballero']);
+        $this->setFuente($signo['Fuente']);
+        $this->setImagen($signo['Imagen']);
+        $this->setFechaLarga($signo['FechaLarga']);
+    }
 
     // Obtener Signos zodiacales
 
