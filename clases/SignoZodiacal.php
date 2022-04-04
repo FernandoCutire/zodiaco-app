@@ -271,7 +271,13 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
         switch($mUsr) {
             case 1:
                 if ($dUsr < 21) {
-                    $this->getCapricornio($dUsr, $mUsr, $this->capricornio);
+                    $this->setSignoZodiacal($this->capricornio['Signo']);
+                    $this->setNombreCaballero($this->capricornio['NCaballero']);
+                    $this->setLectura($this->capricornio['Lectura']);
+                    $this->setDescCaballero($this->capricornio['DesCaballero']);
+                    $this->setFuente($this->capricornio['Fuente']);
+                    $this->setImagen($this->capricornio['Imagen']);
+                    $this->setFechaLarga($this->capricornio['FechaLarga']);
                 } else {
                     $this->getAcuario($dUsr, $mUsr, $this->acuario);
                 }
@@ -373,25 +379,25 @@ que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
 
     // Obtener Signos zodiacales
 
-    function getAries($dUsrnac, $mesnac, $aries)
-    {
-        $dUsr_inicial = $aries['Dia_ini'];
-        $dUsr_final = $aries['Dia_fin'];
-        $mes_inicial = $aries['Mes_ini'];
-        $mes_final = $aries['Mes_fin'];
-
-        if ($mesnac === $mes_inicial || $mesnac === $mes_final) {
-            if ($dUsrnac >= $dUsr_inicial || $dUsrnac <= $dUsr_final) {
-                $this->setSignoZodiacal($aries['Signo']);
-                $this->setNombreCaballero($aries['NCaballero']);
-                $this->setLectura($aries['Lectura']);
-                $this->setDescCaballero($aries['DesCaballero']);
-                $this->setFuente($aries['Fuente']);
-                $this->setImagen($aries['Imagen']);
-                $this->setFechaLarga($aries['FechaLarga']);
-            }
-        }
-    }
+//    function geAries($dUsrnac, $mesnac, $aries)
+//    {
+//        $dUsr_inicial = $aries['Dia_ini'];
+//        $dUsr_final = $aries['Dia_fin'];
+//        $mes_inicial = $aries['Mes_ini'];
+//        $mes_final = $aries['Mes_fin'];
+//
+//        if ($mesnac === $mes_inicial || $mesnac === $mes_final) {
+//            if ($dUsrnac >= $dUsr_inicial || $dUsrnac <= $dUsr_final) {
+//                $this->setSignoZodiacal($aries['Signo']);
+//                $this->setNombreCaballero($aries['NCaballero']);
+//                $this->setLectura($aries['Lectura']);
+//                $this->setDescCaballero($aries['DesCaballero']);
+//                $this->setFuente($aries['Fuente']);
+//                $this->setImagen($aries['Imagen']);
+//                $this->setFechaLarga($aries['FechaLarga']);
+//            }
+//        }
+//    }
 
     function getTauro($dUsrnac, $mesnac, $tauro)
     {

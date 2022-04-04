@@ -37,12 +37,17 @@ function capricornio($dianac, $mesnac)
     $mes_inicial = "12";
     $mes_final = "1";
 //SE EVALUA SI EL MES DE NACIMIENTO ES DICIEMBRE O ENERO
-    if ($mesnac === $mes_inicial || $mesnac === $mes_final) {
+    if ($mesnac === 12 || $mesnac === 1) {
         //SE EVALUA SI EL DIA DE NACIMIENTO ES MAYOR AL DIA 22 O SI EL DIA ES MENOR QUE EL DIA 20 DE ENERO
-        if ($dianac >= $dia_inicial || $dianac <= $dia_final)
-            echo "Tu eres capricornio <br>";
+        if ($dianac >= 22 || $dianac <= 20)
+           $resp = "Tu eres capricornio <br>";
+    } if ($mesnac === 12 || $mesnac === 1) {
+    //SE EVALUA SI EL DIA DE NACIMIENTO ES MAYOR AL DIA 22 O SI EL DIA ES MENOR QUE EL DIA 20 DE ENERO
+    if ($dianac >= 22 || $dianac <= 20)
+        $resp = "Tu eres capricornio <br>";
+}
 
-    } else {
+else {
         echo "eres otro signo <br>";
 
     }
