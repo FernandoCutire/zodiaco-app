@@ -25,9 +25,8 @@ function encabezado()
         </div>
         <nav class="menu">
           <a href="inicio.php">Inicio</a> 
-          <a href="resultados.php">Resultados</a>
           <a href="https://doc.clickup.com/31045686/d/h/xke1p-283/8ec2db1806fa6a4" target="_blank" >Signos Zodiacales</a>
-          <a href="https://github.com/FernandoCutire/zodiaco-app" target="_blank">Contacto</a>
+          <a href="https://github.com/FernandoCutire/zodiaco-app/tree/master" target="_blank">Contacto</a>
         </nav>
       </section>
 </header>
