@@ -43,6 +43,7 @@ echo $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
     <h2 class="respuestas">Signo Zodiacal</h2>
     <span class="persona">
         <?php echo $signo->getSignoZodiacal() ?>
+        <?php echo $signo->getFechaLarga() ?>
     </span>
 
     <h2 class="respuestas">Lectura</h2>
