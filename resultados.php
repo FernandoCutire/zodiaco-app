@@ -18,64 +18,63 @@ $per->setYearUsuario($_POST['anio']);
 $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
 ?>
 
-<section class="section_resultado">
-    <h2 class="title_result">RESULTADO ZODIACAL</h2>
-    <h2 class="respuestas">Signo Zodiacal de:
-        <span class="persona"><?php echo $per->getNombre(); ?></span>
-    </h2>
+    <section class="section_resultado">
+        <h2 class="title_result">RESULTADO ZODIACAL</h2>
+        <img src="imagenes/lecture.png" alt="lecture" style="width: 150px; height: 150px;">
 
-    <?php echo $per->getNombre() . " ", " " . $per->getApellido(); ?>
+        <h2 class="respuestas">Tu Nombre:
+            <span class="persona"><?php echo $per->getNombre() . " ", " " . $per->getApellido(); ?></span>
+        </h2>
 
-    <h2 class="respuestas"> Fecha de Nacimiento:</h2>
 
-    <span class="persona">
+
+        <h2 class="respuestas"> Fecha de Nacimiento:
+
+            <span class="persona">
     <?php echo $per->getDiaUsuario() . " / ", " " . $per->getMesUsuario(), " / " . $per->getYearUsuario(); ?>
-    </span>
+    </span></h2>
 
-    <h2 class="respuestas">Edad</h2>
-    <span class="persona">
+        <h2 class="respuestas">Tu edad es:
+            <span class="persona">
         <?php
         $per->calcularedad($per->getDiaUsuario(), $per->getMesUsuario(), $per->getYearUsuario());
         echo $per->getEdad();
         ?>
-    </span>
+    </span></h2>
 
-    <h2 class="respuestas">Signo Zodiacal</h2>
-    <span class="persona">
-        <?php echo $signo->getSignoZodiacal() ?>
+        <h2 class="respuestas">Tu Signo Zodiacal es:
+            <span class="persona">
+        <?php echo $signo->getSignoZodiacal() ?><br><br>
         <?php echo $signo->getFechaLarga() ?>
+    </span></h2>
+
+        <h2 class="respuestas">Lectura:</h2>
+        <span class="persona">
+        <p class="parrafo-resp">
+        <?php echo $signo->getLectura() ?></p>
     </span>
 
-    <h2 class="respuestas">Lectura</h2>
-    <span class="persona">
-        <?php echo $signo->getLectura() ?>
-    </span>
-
-    <h2 class="respuestas">Caballero del Zodiaco</h2>
-    <span class="persona">
+        <h2 class="respuestas">Caballero del Zodiaco:
+            <span class="persona">
         <?php echo $signo->getNombreCaballero() ?>
-    </span>
+    </span></h2>
 
 
-    <h2 class="respuestas">Imagen</h2>
+        <h2 class="respuestas">
     <span class="persona">
-        <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="250px" width="500px" />
+        <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="90px" width="150px" />
+    </span></h2>
+
+        <h2 class="respuestas">Descripción Caballero</h2>
+        <span class="persona">
+        <p class="parrafo-resp"><?php echo $signo->getDescCaballero() ?></p>
     </span>
 
-    <h2 class="respuestas">Descripción Caballero</h2>
-    <span class="persona">
-        <?php echo $signo->getDescCaballero() ?>
-    </span>
 
 
-    <h2 class="respuestas">Fuente</h2>
-    <span class="persona">
-        <?php echo $signo->getFuente()?>
-    </span>
+        <br>
 
-    <br>
-
-</section>
+    </section>
 <?php
 pie();
 ?>
