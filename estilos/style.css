@@ -165,6 +165,18 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
+.btn-volver {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #5B369C;
+  color: #fff;
+}
+
 input .del, .sub{
   width: 80px;
 }
@@ -185,7 +197,7 @@ input[type=reset]:hover {
   width: 120px;
   cursor: pointer;
   border-radius: 10px;
-  font-family: Arial;
+  font-family: Arial, serif;
   color: var(--white-font);
   font-size: 1rem;
   background: #1b5e20;

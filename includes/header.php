@@ -8,7 +8,7 @@ function encabezado()
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conoce tu Horoscopo</title>
+    <title>Conoce tu Horóscopo</title>
     <link rel="icon" href="imagenes/horoscopo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
     <link rel="stylesheet" href="estilos/style.css">
@@ -21,7 +21,7 @@ function encabezado()
         <div class="logo"> 
            <a href="./inicio.php">
         <img class="horoscopo" src="imagenes/horoscopo.png" alt="zodiac"><span> </span></a>
-       <h1>Tu Horoscopo</h1>
+       <h1>Tu Horóscopo</h1>
         </div>
         <nav class="menu">
           <a href="inicio.php">Inicio</a> 

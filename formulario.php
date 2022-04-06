@@ -9,8 +9,8 @@ function formulario()
     ?>
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
-        <p>🔯 <i>Aquí conocerás tu horocopo</i></p>
-        <p>🔯 <i>Conocerás más más sobre ti</i></p>
+        <p>🔯 <i>Aquí conocerás tu Horóscopo</i></p>
+        <p>🔯 <i>Conocerás más  sobre ti</i></p>
         <p>🔯 <i>Tendrás tu lectura según tu signo</i></p>
     </div>
 

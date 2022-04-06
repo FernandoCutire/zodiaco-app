@@ -76,7 +76,7 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <p class="parrafo-resp"><?php echo $signo->getDescCaballero() ?></p>
     </span></div>
 
-
+        <a class="btn-volver" href="inicio.php">Volver a inicio</a>
 
         <br>
 
