@@ -267,15 +267,23 @@ tr,td{
   min-height: 100vh;
   background-color: #f2f2f2;
 }
-.persona{
 
+.persona{
   text-transform: uppercase;
   color: #222;
-  text-align: justify;
   text-align: justify;
   width: 50%;
   margin: auto;
 }
+
+.persona--desc{
+  color: #222;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+}
+
+
 .parrafo-resp{
   text-align: justify;
   width: 50%;

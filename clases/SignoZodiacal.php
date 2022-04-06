@@ -55,7 +55,7 @@ apoderarse del Megas Drepanon y resucitar al gran dios Cronos."
 
     public $cancer = array("Signo" => "Cáncer ♋",
         "FechaLarga" => "21 de Junio al 22 de Julio",
-        "Lectura" => "es una buena semana para proponerte cambios y llevarlos a cabo sin dudas.
+        "Lectura" => "Es una buena semana para proponerte cambios y llevarlos a cabo sin dudas.
          En tu casa aprovecharás para renovar y buscar la felicidad en pequeños detalles, rodeado de tus seres queridos, que te echarán una mano siempre que la necesites. 
          En el trabajo te harás escuchar por todos y lucharás con habilidad para mejorar. No te asustará el exceso de trabajo, lograrás en poco tiempo lo que antes te costaba mucho más.
         "

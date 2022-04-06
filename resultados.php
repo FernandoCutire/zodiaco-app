@@ -55,9 +55,10 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
     </span></div>
 
         <div class="respuestas"><h2>Lectura:</h2>
-        <span class="persona">
+        <span class="persona--desc">
         <p class="parrafo-resp">
-        <?php echo $signo->getLectura() ?></p>
+            <?php echo $signo->getLectura() ?>
+        </p>
     </span></div>
 
         <div class="respuestas"><h2>Caballero del Zodiaco:
@@ -72,7 +73,7 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
     </span></div>
 
         <div class="respuestas"><h2>Descripción Caballero</h2>
-        <span class="persona">
+        <span class="persona--desc">
         <p class="parrafo-resp"><?php echo $signo->getDescCaballero() ?></p>
     </span></div>
 
