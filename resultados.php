@@ -46,7 +46,13 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
             <span class="persona">
         <?php echo $signo->getSignoZodiacal() ?><br><br>
         <?php echo $signo->getFechaLarga() ?>
+
     </span></h2></div>
+
+    <div class="respuestas">
+    <span class="persona">
+        <img src="<?php  echo $signo->getImgZodiaco() ?>" alt="Imagen zodiaco" height="90px" width="150px" />
+    </span></div>
 
         <div class="respuestas"><h2>Lectura:</h2>
         <span class="persona">
