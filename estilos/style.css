@@ -106,7 +106,7 @@ video {
 .menu a {
 
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--white-color);
 
   text-align: center;
@@ -294,7 +294,7 @@ padding: 1rem;
   color: #941A38;
 }
 .title_result{
-  font-size: 3rem;
+  font-size: 1.6rem;
   padding: 2rem;
   background-color:  #941A38;
   color: #fff;

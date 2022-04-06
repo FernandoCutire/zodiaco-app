@@ -54,12 +54,11 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <img src="<?php  echo $signo->getImgZodiaco() ?>" alt="Imagen zodiaco" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Lectura:</h2>
-        <span class="persona--desc">
-        <p class="parrafo-resp">
+        <div class="respuestas"><h2>Lectura:
+        <p class="persona--desc">
             <?php echo $signo->getLectura() ?>
         </p>
-    </span></div>
+    </span></h2></div>
 
         <div class="respuestas"><h2>Caballero del Zodiaco:
             <span class="persona">
@@ -72,10 +71,10 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Descripción Caballero</h2>
-        <span class="persona--desc">
-        <p class="parrafo-resp"><?php echo $signo->getDescCaballero() ?></p>
-    </span></div>
+        <div class="respuestas"><h2>Descripción Caballero
+        <p class="persona--desc">
+       <?php echo $signo->getDescCaballero() ?></p>
+    </span></h2></div>
 
         <a class="btn-volver" href="inicio.php">Volver a inicio</a>
 
