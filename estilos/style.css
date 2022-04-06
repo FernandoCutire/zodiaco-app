@@ -175,6 +175,8 @@ input[type=text], select {
   box-sizing: border-box;
   background-color: #5B369C;
   color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 input .del, .sub{
