@@ -177,7 +177,6 @@ input[type=reset]:hover {
 }
 
 
-
 .center{
   text-align: center;
 }
@@ -269,13 +268,13 @@ tr,td{
   margin: auto;
 }
 .respuestas{
-
+padding: 1rem;
   color: #941A38;
 }
 .title_result{
   font-size: 3rem;
   padding: 2rem;
-  background-color: #1A3494;
+  background-color:  #941A38;
   color: #fff;
   border-radius: 20px;
 }

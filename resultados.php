@@ -22,53 +22,53 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <h2 class="title_result">RESULTADO ZODIACAL</h2>
         <img src="imagenes/lecture.png" alt="lecture" style="width: 150px; height: 150px;">
 
-        <h2 class="respuestas">Tu Nombre:
+        <div class="respuestas"><h2>Tu Nombre:
             <span class="persona"><?php echo $per->getNombre() . " ", " " . $per->getApellido(); ?></span>
-        </h2>
+        </h2></div>
 
 
 
-        <h2 class="respuestas"> Fecha de Nacimiento:
+        <div class="respuestas"><h2> Fecha de Nacimiento:
 
             <span class="persona">
     <?php echo $per->getDiaUsuario() . " / ", " " . $per->getMesUsuario(), " / " . $per->getYearUsuario(); ?>
-    </span></h2>
+    </span></h2></div>
 
-        <h2 class="respuestas">Tu edad es:
+        <div class="respuestas"><h2>Tu edad es:
             <span class="persona">
         <?php
         $per->calcularedad($per->getDiaUsuario(), $per->getMesUsuario(), $per->getYearUsuario());
         echo $per->getEdad();
         ?>
-    </span></h2>
+    </span></h2></div>
 
-        <h2 class="respuestas">Tu Signo Zodiacal es:
+        <div class="respuestas"><h2>Tu Signo Zodiacal es:
             <span class="persona">
         <?php echo $signo->getSignoZodiacal() ?><br><br>
         <?php echo $signo->getFechaLarga() ?>
-    </span></h2>
+    </span></h2></div>
 
-        <h2 class="respuestas">Lectura:</h2>
+        <div class="respuestas"><h2>Lectura:</h2>
         <span class="persona">
         <p class="parrafo-resp">
         <?php echo $signo->getLectura() ?></p>
-    </span>
+    </span></div>
 
-        <h2 class="respuestas">Caballero del Zodiaco:
+        <div class="respuestas"><h2>Caballero del Zodiaco:
             <span class="persona">
         <?php echo $signo->getNombreCaballero() ?>
-    </span></h2>
+    </span></h2></div>
 
 
-        <h2 class="respuestas">
+        <div class="respuestas">
     <span class="persona">
         <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="90px" width="150px" />
-    </span></h2>
+    </span></div>
 
-        <h2 class="respuestas">Descripción Caballero</h2>
+        <div class="respuestas"><h2>Descripción Caballero</h2>
         <span class="persona">
         <p class="parrafo-resp"><?php echo $signo->getDescCaballero() ?></p>
-    </span>
+    </span></div>
 
 
 
