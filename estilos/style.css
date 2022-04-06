@@ -175,6 +175,8 @@ input[type=text], select {
   box-sizing: border-box;
   background-color: #5B369C;
   color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 input .del, .sub{
@@ -265,15 +267,23 @@ tr,td{
   min-height: 100vh;
   background-color: #f2f2f2;
 }
-.persona{
 
+.persona{
   text-transform: uppercase;
   color: #222;
-  text-align: justify;
   text-align: justify;
   width: 50%;
   margin: auto;
 }
+
+.persona--desc{
+  color: #222;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+}
+
+
 .parrafo-resp{
   text-align: justify;
   width: 50%;
