@@ -1,13 +1,19 @@
 <?
 include ('includes/header.php');
 encabezado();
-setcookie(count, 1, time() + (86400 * 30), "/"); // 86400 = 1 day
 ?>
-
 
 <?php
 function formulario()
 {
+    if(isset($_COOKIE['contador'])){
+        setcookie('contador', $_COOKIE['contador'] + 1);
+        $mensaje = "Número de visitas: " . $_COOKIE['contador'];
+    } else {
+        setcookie('contador', 1);
+        $mensaje = "Bienvenido a nuestra página web";
+    }
+
     ?>
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
@@ -185,21 +191,14 @@ function formulario()
                 </div>
             </form>
 
+            <div class="center">
+                <p>
+                    <?php echo $mensaje; ?>
+                </p>
+            </div>
         </div>
 
-        <div class="center">
-            <?php
-            if (!isset($_COOKIE['count'])) {
-                echo "Welcome! This is the first time you have viewed this page.";
-                $cookie = 1;
-                setcookie("count", $cookie);
-            }else{
-                $cookie = ++$_COOKIE['count'];
-                setcookie("count", $cookie);
-                echo "You have viewed this page ".$_COOKIE['count']." times.";
-            }
-            ?>
-        </div>
+
     </section>
 
 
