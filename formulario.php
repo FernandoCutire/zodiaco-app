@@ -1,6 +1,8 @@
 <?
 include ('includes/header.php');
-encabezado();?>
+encabezado();
+setcookie(count, 1, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
 
 
 <?php
@@ -15,8 +17,6 @@ function formulario()
     </div>
 
     <section class="section">
-
-
 
         <div class="formulario"><br><br>
             <h2 class="title-form">Conoce tu Horóscopo Aquí...</h2>
@@ -185,6 +185,20 @@ function formulario()
                 </div>
             </form>
 
+        </div>
+
+        <div class="center">
+            <?php
+            if (!isset($_COOKIE['count'])) {
+                echo "Welcome! This is the first time you have viewed this page.";
+                $cookie = 1;
+                setcookie("count", $cookie);
+            }else{
+                $cookie = ++$_COOKIE['count'];
+                setcookie("count", $cookie);
+                echo "You have viewed this page ".$_COOKIE['count']." times.";
+            }
+            ?>
         </div>
     </section>
 
