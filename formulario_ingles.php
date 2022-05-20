@@ -1,17 +1,18 @@
 <?
-include ('includes/header.php');
+include ('includes/header_ingles.php');
 encabezado();?>
 
 
 <?php
-function formulario()
+function formulario_ingles()
 {
     ?>
+   
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
-        <p>🔯 <i>Aquí conocerás tu Horóscopo</i></p>
-        <p>🔯 <i>Conocerás más  sobre ti</i></p>
-        <p>🔯 <i>Tendrás tu lectura según tu signo</i></p>
+        <p>🔯 <i>Here you will know your Horoscope</i></p>
+        <p>🔯 <i>You will know more about yourself</i></p>
+        <p>🔯 <i>You will have your reading according to your sign</i></p>
     </div>
 
     <section class="section">
@@ -19,17 +20,17 @@ function formulario()
 
 
         <div class="formulario"><br><br>
-            <h2 class="title-form">Conoce tu Horóscopo Aquí...</h2>
+            <h2 class="title-form">Know your Horoscope Here...</h2>
             <form method="POST" action="resultados.php"><br>
 
 
-                <label>Nombre:  </label>
+                <label>Name:  </label>
                 <input type="text" name="nombre" placeholder="Ingrese su Nombre" autocomplete="off"> <br><br>
 
-                <label>Apellido:  </label>
+                <label>Last Name:  </label>
                 <input type="text" name="apellido" placeholder="Ingrese su Apellido" autocomplete="off"><br><br>
 
-                <label for="datemax">¿Cuál es tu fecha de nacimiento?</label><br>
+                <label for="datemax">What is your birth date?</label><br>
                 <select name="dia" class="form-fecha">
                     <option value="1">01</option>
                     <option value="2">02</option>
@@ -66,18 +67,18 @@ function formulario()
 
                 <select name="mes" class="form-fecha">
 
-                    <option value="1">Enero</option>
-                    <option value="2">Febrero</option>
-                    <option value="3">Marzo</option>
-                    <option value="4">Abril</option>
-                    <option value="5">Mayo</option>
-                    <option value="6">Junio</option>
-                    <option value="7">Julio</option>
-                    <option value="8">Agosto</option>
-                    <option value="9">Septiembre</option>
-                    <option value="10">Octubre</option>
-                    <option value="11">Noviembre</option>
-                    <option value="12">Diciembre</option>
+                    <option value="1">January</option>
+                    <option value="2">Febrary</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
                 </select>
 
                 <select name="anio" class="form-fecha">
@@ -180,15 +181,16 @@ function formulario()
                 <br><br>
 
                 <div class="center">
-                    <input type="submit" name="enviado" value="Enviar" class="sub">
-                    <input type="reset" value="Borrar" class="del"><br><br>
+                    <input type="submit" name="enviado" value="Send" class="sub">
+                    <input type="reset" value="Delete" class="del">
+                    <a href="cookies/borrarCookie.php">Delete Cookie</a> <br><br>
                 </div>
             </form>
 
         </div>
     </section>
 
-
+  
 
 <?php }  ?>
 <?include ('includes/pie_pag.php');

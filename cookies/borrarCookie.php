@@ -1,4 +1,4 @@
 <?php
 setcookie("idiomaUsuario");
-header('location:index.php');
+header('location: seleccionIdiomas.php');
 ?>

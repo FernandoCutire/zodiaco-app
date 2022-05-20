@@ -1,7 +1,7 @@
 <?
 include ('includes/header.php');
 encabezado();
-setcookie(count, 1, time() + (86400 * 30), "/"); // 86400 = 1 day
+
 ?>
 
 
@@ -9,6 +9,9 @@ setcookie(count, 1, time() + (86400 * 30), "/"); // 86400 = 1 day
 function formulario()
 {
     ?>
+    <html>
+        
+    </html>
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
         <p>🔯 <i>Aquí conocerás tu Horóscopo</i></p>

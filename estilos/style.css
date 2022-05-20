@@ -84,6 +84,8 @@ video {
   border: 0;
   cursor: pointer;
   background-color: #222;
+  padding: 2rem;
+
 }
 
 
@@ -105,7 +107,7 @@ video {
 
 .menu a {
 
-  padding: 1rem;
+  padding: 2rem;
   font-size: 1.5rem;
   color: var(--white-color);
 
@@ -311,4 +313,10 @@ padding: 1rem;
   color: var(--white-font);
   background-color: #222;
   margin-bottom: 0;
+}
+
+/*COOKIE*/
+.banderas {
+  width: 510px; /* Based on the width of all horizontal images plus their left and right margins */
+  margin: 0 auto;
 }

@@ -2,23 +2,16 @@
 //se comprueba si existe la cookie.
 if (!isset($_COOKIE["idiomaUsuario"])){
 //si no existe, se determina como pagina la destinada a elegir el idioma.
-    $pagina = "pedirIdioma.html";
-
-
-} elseif ($_COOKIE["idiomaUsuario"]== "sp"){
+    $pagina = "seleccionIdiomas.php";
+    
+} elseif ($_COOKIE["idiomaUsuario"]== "es"){
     //si existe la cookie y el valor de la variable es "sp" se ira a la pagina en español.
-    $pagina = "spanish.html";
-
-}elseif ($_COOKIE["idiomaUsuario"]== "fr"){
-    //si existe la cookie y el valor de la variable es "sp" se ira a la pagina en español.
-    $pagina = "frances.html";
+    $pagina = "inicio.php";
 
 }else{
     //si el valor no es "sp" se ira a la pagina en ingles
-    $pagina = "english.html";
+    $pagina = "inicio_ingles.php";
 }
-
-
 ?>
 
 <html>

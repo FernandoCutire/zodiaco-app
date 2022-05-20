@@ -9,7 +9,7 @@ setcookie("idiomaUsuario",$_GET["idiomaUsuario"], time()+86400);
     <body>
         <script language="javascript" type="text/javascript">
             //se regresa a la pagina principal
-            location.href ="index.php";
+            location.href ="index_cookie.php";
 
         </script>
     </body>
