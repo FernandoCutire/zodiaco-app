@@ -8,9 +8,10 @@ function idiomas()
 {
 
 ?>
-
+<head>
 <title>Pedir el idioma del usuario</title>
-   
+
+
 </head>
 <body>
     <section class="section">
@@ -28,13 +29,13 @@ function idiomas()
 </section>
   
 </body>
-</html>
 <script language="javascript" type="text/javascript">
         function enviarIdioma (idioma){
             location.href = "grabarCookie.php?idiomaUsuario=" + idioma;
 
         }
     </script>
+</html>
 
 <?php
 }?>

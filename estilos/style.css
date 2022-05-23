@@ -50,7 +50,7 @@ video {
   /*position: sticky;*/
   z-index: 2;
   top: 0;
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--main-color);
   color: var(--white-font);
 
@@ -84,7 +84,7 @@ video {
   border: 0;
   cursor: pointer;
   background-color: #222;
-  padding: 2rem;
+  padding: 1rem;
 
 }
 
@@ -96,7 +96,7 @@ video {
   top: 0;
   display: flex;
   background-color: var(--main-color);
-  padding: 2rem;
+  padding: 1rem;
   position: static;
   width: auto;
   flex-direction: row;
@@ -107,10 +107,9 @@ video {
 
 .menu a {
 
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1.5rem;
   color: var(--white-color);
-
   text-align: center;
   text-decoration: none;
 
@@ -196,6 +195,7 @@ input[type=reset]:hover {
 .center{
   text-align: center;
 }
+
 
 .sub{
   width: 120px;
@@ -320,3 +320,6 @@ padding: 1rem;
   width: 510px; /* Based on the width of all horizontal images plus their left and right margins */
   margin: 0 auto;
 }
+
+
+

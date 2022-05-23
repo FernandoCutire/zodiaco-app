@@ -25,10 +25,10 @@ function formulario_ingles()
 
 
                 <label>Name:  </label>
-                <input type="text" name="nombre" placeholder="Ingrese su Nombre" autocomplete="off"> <br><br>
+                <input type="text" name="nombre" placeholder="Enter your name" autocomplete="off"> <br><br>
 
                 <label>Last Name:  </label>
-                <input type="text" name="apellido" placeholder="Ingrese su Apellido" autocomplete="off"><br><br>
+                <input type="text" name="apellido" placeholder="Enter your Last Name" autocomplete="off"><br><br>
 
                 <label for="datemax">What is your birth date?</label><br>
                 <select name="dia" class="form-fecha">
@@ -182,8 +182,9 @@ function formulario_ingles()
 
                 <div class="center">
                     <input type="submit" name="enviado" value="Send" class="sub">
-                    <input type="reset" value="Delete" class="del">
-                    <a href="cookies/borrarCookie.php">Delete Cookie</a> <br><br>
+                    <input type="reset" value="Delete" class="del"><br><br>
+                    <a class="btn-volver"href="borrarCookie.php">Delete Cookie</a> 
+                    <br><br>
                 </div>
             </form>
 
@@ -193,5 +194,5 @@ function formulario_ingles()
   
 
 <?php }  ?>
-<?include ('includes/pie_pag.php');
+<?include ('includes/pie_pag_ingles.php');
 pie(); ?>

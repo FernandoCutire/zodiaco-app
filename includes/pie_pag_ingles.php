@@ -4,9 +4,9 @@
 	{
     ?>
 <footer class="footer">
-  <p>Creado por: <b>Fernando Cutire & Hellynger St Rose</b></p>
-  <p>Arquitectura y Desarrollo de Aplicaciones Web</p>
- <p> Laboratorio 1</p>
-   <p>Todos los derechos reservados <?php echo date("Y") ?> </p>
+  <p>Created by: <b>Fernando Cutire & Hellynger St Rose</b></p>
+  <p>Architecture and Development of Web Applications</p>
+ <p>Assignment 1</p>
+   <p>All rights reserved <?php echo date("Y") ?> </p>
 </footer>
 <?php  }  ?>

@@ -8,9 +8,12 @@ if (!isset($_COOKIE["idiomaUsuario"])){
     //si existe la cookie y el valor de la variable es "sp" se ira a la pagina en español.
     $pagina = "inicio.php";
 
-}else{
+}elseif($_COOKIE["idiomaUsuario"]== "en"){
     //si el valor no es "sp" se ira a la pagina en ingles
     $pagina = "inicio_ingles.php";
+}else{
+    $pagina = "inicio_frances.php";
+
 }
 ?>
 

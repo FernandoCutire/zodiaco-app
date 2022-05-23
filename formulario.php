@@ -191,7 +191,10 @@ function formulario()
                 <div class="center">
                     <input type="submit" name="enviado" value="Enviar" class="sub">
                     <input type="reset" value="Borrar" class="del"><br><br>
+
                 </div>
+                <a class="btn-volver" href="borrarCookie.php" >Borrar Cookie</a> <br><br>
+
             </form>
 
             <div class="center">
