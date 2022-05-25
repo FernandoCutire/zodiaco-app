@@ -16,7 +16,10 @@ function formulario_ingles()
     }
 
     ?>
-   
+
+
+
+
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
         <p>🔯 <i>Here you will know your Horoscope</i></p>
@@ -189,6 +192,8 @@ function formulario_ingles()
 
                 <br><br>
 
+
+
                 <div class="center">
                     <input type="submit" name="enviado" value="Send" class="sub">
                     <input type="reset" value="Delete" class="del"><br><br>
@@ -197,22 +202,20 @@ function formulario_ingles()
                 </div>
             </form>
 
-            <div class="center">
-                <p>
-                    <?php echo $mensaje; ?>
-                </p>
-            </div>
 
 
         </div>
 
-
+        <div class="center">
+            <p>
+                <?php echo $mensaje; ?>
+            </p>
+        </div>
 
     </section>
 
-
-
+  
 
 <?php }  ?>
-<?php include ('includes/pie_pag_ingles.php');
+<?include ('includes/pie_pag_ingles.php');
 pie(); ?>

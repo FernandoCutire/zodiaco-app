@@ -1,27 +1,27 @@
 <?
-include ('includes/header_ingles.php');
+include ('includes/header_frances.php');
 encabezado();?>
 
 
 <?php
-function formulario_ingles()
+function formulario_frances()
 {
 
     if(isset($_COOKIE['contador'])){
         setcookie('contador', $_COOKIE['contador'] + 1);
-        $mensaje = "Visit counter: " . $_COOKIE['contador'];
+        $mensaje = "Coute visite: " . $_COOKIE['contador'];
     } else {
         setcookie('contador', 1);
-        $mensaje = "Welcome to our website";
+        $mensaje = "Bonjour a neutro sitio";
     }
 
+
     ?>
-   
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
-        <p>🔯 <i>Here you will know your Horoscope</i></p>
-        <p>🔯 <i>You will know more about yourself</i></p>
-        <p>🔯 <i>You will have your reading according to your sign</i></p>
+        <p>🔯 <i>Ici, vous connaîtrez votre horoscope</i></p>
+        <p>🔯 <i>Vous en saurez plus sur vous</i></p>
+        <p>🔯 <i>Vous aurez votre lecture selon votre signe</i></p>
     </div>
 
     <section class="section">
@@ -29,18 +29,19 @@ function formulario_ingles()
 
 
         <div class="formulario"><br><br>
-            <h2 class="title-form">Know your Horoscope Here...</h2>
+            <h2 class="title-form">Connaissez votre horoscope ici...</h2>
             <form method="POST" action="resultados.php"><br>
 
 
-                <label>Name:  </label>
-                <input type="text" name="nombre" placeholder="Enter your name" autocomplete="off"> <br><br>
+                <label>Nom:  </label>
+                <input type="text" name="nombre" placeholder="Entrez votre nom" autocomplete="off"> <br><br>
 
-                <label>Last Name:  </label>
-                <input type="text" name="apellido" placeholder="Enter your Last Name" autocomplete="off"><br><br>
+                <label>Le Nom  </label>
+                <input type="text" name="apellido" placeholder="Entrez votre nom de famille" autocomplete="off"><br><br>
 
-                <label for="datemax">What is your birth date?</label><br>
+                <label for="datemax">Quelle est ta date de naissance?</label><br>
                 <select name="dia" class="form-fecha">
+
                     <option value="1">01</option>
                     <option value="2">02</option>
                     <option value="3">03</option>
@@ -76,18 +77,18 @@ function formulario_ingles()
 
                 <select name="mes" class="form-fecha">
 
-                    <option value="1">January</option>
-                    <option value="2">Febrary</option>
-                    <option value="3">March</option>
-                    <option value="4">April</option>
-                    <option value="5">May</option>
-                    <option value="6">June</option>
-                    <option value="7">July</option>
-                    <option value="8">August</option>
-                    <option value="9">September</option>
-                    <option value="10">October</option>
-                    <option value="11">November</option>
-                    <option value="12">December</option>
+                    <option value="1">Janvier</option>
+                    <option value="2">Février</option>
+                    <option value="3">Mars</option>
+                    <option value="4">Avril</option>
+                    <option value="5">Mai</option>
+                    <option value="6">Juin</option>
+                    <option value="7">Juillet</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octobre</option>
+                    <option value="11">Novembre</option>
+                    <option value="12">Décembre</option>
                 </select>
 
                 <select name="anio" class="form-fecha">
@@ -190,10 +191,10 @@ function formulario_ingles()
                 <br><br>
 
                 <div class="center">
-                    <input type="submit" name="enviado" value="Send" class="sub">
-                    <input type="reset" value="Delete" class="del"><br><br>
-                    <a class="btn-volver"href="borrarCookie.php">Delete Cookie</a> 
-                    <br><br>
+                    <input type="submit" name="enviado" value="Envoyer" class="sub">
+                    <input type="reset" value="Effacer" class="del"><br><br>
+                    <a class="btn-volver"href="borrarCookie.php">supprimer les cookies</a> 
+
                 </div>
             </form>
 
@@ -205,14 +206,10 @@ function formulario_ingles()
 
 
         </div>
-
-
-
     </section>
 
 
 
-
 <?php }  ?>
-<?php include ('includes/pie_pag_ingles.php');
+<?include ('includes/pie_pag_frances.php');
 pie(); ?>

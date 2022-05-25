@@ -6,6 +6,15 @@ encabezado();?>
 <?php
 function formulario_frances()
 {
+
+    if(isset($_COOKIE['contador'])){
+        setcookie('contador', $_COOKIE['contador'] + 1);
+        $mensaje = "Coute visite: " . $_COOKIE['contador'];
+    } else {
+        setcookie('contador', 1);
+        $mensaje = "Bonjour a neutro sitio";
+    }
+
     ?>
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
@@ -186,6 +195,13 @@ function formulario_frances()
 
                 </div>
             </form>
+
+            <div class="center">
+                <p>
+                    <?php echo $mensaje; ?>
+                </p>
+            </div>
+
 
         </div>
     </section>
