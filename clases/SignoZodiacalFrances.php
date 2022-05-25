@@ -14,10 +14,10 @@ class SignoZodiacal
 
     // Diferentes signos zodiacales
     public $aries = array("Signo" => "Aries ♈",
-        "FechaLarga" => "21 de Marzo al 19 de Abril",
-        "Lectura" => "Este día te traerá la posibilidad de dedicarte a cosas que a diario te interesan mucho y para las que no siempre tienes tiempo. Tal vez te decidas hoy a leer un libro, a estudiar o a poner sobre el papel algún proyecto de los que te rondan por la cabeza desde hace tiempo."
-    , "NCaballero" => "Mu de Aries"
-    , "DesCaballero" => "Es telépata y telequinético. Conocido por tener los poderes mentales más fuertes entre los 12 Santos de Oro, el mismo Aioria lo admite en su pelea contra los Espectros en la Casa de Leo. El Santo de Aries es un increíble manipulador de la teletransportación, con poder suficiente para transportarse el mismo o a varias personas a lugares muy lejanos, incluso otras dimensiones."
+        "FechaLarga" => "March 21 to April 19",
+        "Lectura" => "This day will bring you the possibility of dedicating yourself to things that interest you a lot on a daily basis and for which you do not always have time. Perhaps you decide today to read a book, to study or to put on paper some of the projects that have been on your mind for a long time."
+    , "NCaballero" => "Mu Aries"
+    , "DesCaballero" => "Mu is telepathic and telekinetic. Known to have the strongest mental powers among the 12 Gold Saints, he is admitted by Aioria himself in his fight against the Specters in the House of Leo. The Saint of Aries is an incredible manipulator of teleportation, with enough power to transport himself or several people to very distant places, even other dimensions. With his psychic powers he can also create illusions like the ones he made the Silver Saints see and thus confuse the Bronze Saints with the Black Saints. He can fly with the help of his telekinesis."
     , "Imagen" => "./imagenes/caballeros/Mu_Aries-zodiaco.jpg",
     "zodiaco"=> "imagenes/aries.webp",
         "Fuente" => "https://es.wikipedia.org/wiki/Mu_de_Aries#Habilidades"
@@ -25,13 +25,13 @@ class SignoZodiacal
 
 
     public $tauro = array("Signo" => "Tauro ♉",
-        "FechaLarga" => "20 de abril al 20 de mayo",
-        "Lectura" => "Lo tuyo en días de fiesta es lo que muchos quisieran para sí, Tauro. Sueles hacer planes a diario con gente yse cumplen o no, pero siempre buscas otra salida para pasarlo bien, para que todos se diviertan. Eso es
-mucho de agradecer, no todo el mundo sabe organizarse para hacer cosas en grupo y mucho menos cambiar
-de rumbo y sacarse de la manga un plan B si el plan A se tuerce."
+        "FechaLarga" => "April 20 to May 20",
+        "Lectura" => "Yours on holidays is what many would like for themselves, Taurus. You usually make plans with people on a daily basis and they come true or not, but you always look for another outlet to have a good time, so that everyone has fun.
+         That is much appreciated, not everyone knows how to organize 
+         themselves to do things in a group, much less change course and pull out a plan B if plan A goes awry.
+"
     , "NCaballero" => "Aldebarán"
-    , "DesCaballero" => "es un personaje del manga y anime Saint Seiya conocido en español como Los Caballeros del Zodíaco. Fue el Santo de oro de Tauro hasta su muerte a manos de Niobe de Deep, después fue revivido por
-Atena, pero murió nuevamente con los caballeros dorados en el Muro de los Lamentos."
+    , "DesCaballero" => "Aldebaran is a character from the manga and anime Saint Seiya known in Spanish as Los Caballeros del Zodiaco. He was the Taurus Gold Saint until his death at the hands of Niobe of the Deep, after which he was revived by Athena, but died again with the Golden Knights at the Wailing Wall."
     , "Imagen" => "./imagenes/caballeros/Aldebaran_Tauro-zodiaco.jpg",
     "zodiaco"=> "./imagenes/tauro.webp",
         "Fuente" => "https://es.wikipedia.org/wiki/Aldebar%C3%A1n_de_Tauro"
@@ -39,15 +39,17 @@ Atena, pero murió nuevamente con los caballeros dorados en el Muro de los Lamen
 
 
     public $geminis = array("Signo" => "Géminis ♊",
-        "FechaLarga" => "21 de Mayo al 20 de Junio",
-        "Lectura" => "Vas a tener renovadas tus energías en todos los aspectos, pero sobre todo en el aspecto mental. Estarás muy bien de salud, no tendrás motivo de preocupación. Dedicas demasiado tiempo al desarrollo de tus tareas, debes cuidarte. Trata de disfrutar el momento, no siempre tendrás todas las cosas acordes."
-    , "NCaballero" => "Saga de Géminis"
-    , "DesCaballero" => "Cronos le entrega la daga dorada a Saga, con ella mataría a Atena pero es descubierto por . Años
-después aparece como pontífice, aparentemente bajo el mando de Pontos tratando de eliminar a .
-Luego de que siente un cosmos malvado poseyendo a Galan, convoca a la reunión dorada. En esa
-misma reunión, envía al Santo de Leo para que pelee en contra de Hiperión de Oscuridad que estaba
-atacando al Santuario. Luego les explicaría a los restantes Santos de Oro que los Titanes han vuelto para
-apoderarse del Megas Drepanon y resucitar al gran dios Cronos."
+        "FechaLarga" => "May 21 to June 20",
+        "Lectura" => "This day will bring you the possibility of dedicating 
+        yourself to things that interest you a lot on a daily basis 
+        and for which you do not always have time. 
+        Perhaps you decide today to read a book, 
+        to study or to put on paper some of the projects that have been on your mind for a long time.
+"
+    , "NCaballero" => "Saga Géminis"
+    , "DesCaballero" => "Cronos hands the golden dagger to Saga, with it he would kill Athena but he is discovered by Aiolos. Years later he appears as pontiff, apparently under the command of Pontos trying to eliminate Aioria.
+     After Shaka senses an evil cosmos possessing Galan, she calls the golden gathering. 
+     In that same meeting, she sends the Saint of Leo to fight against Hyperion of Darkness who was attacking the Sanctuary. He would later explain to the remaining Gold Saints that the Titans have returned to seize the Megas Drepanon and resurrect the great god Cronos."
     , "Imagen" => "./imagenes/caballeros/Saga_Gemini-zodiaco.jpg",
     "zodiaco"=> "./imagenes/geminis.webp",    
     "Fuente" => "https://es.wikipedia.org/wiki/Saga_de_G%C3%A9minis#Biograf%C3%ADa"
