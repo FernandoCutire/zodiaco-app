@@ -1,6 +1,6 @@
 <?php
-include('includes/header.php');
-include('includes/pie_pag.php');
+include('includes/header_ingles.php');
+include('includes/pie_pag_ingles.php');
 include('clases/Persona.php');
 include('clases/SignoZodiacalIngles.php');
 
@@ -42,7 +42,7 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         ?>
     </span></h2></div>
 
-        <div class="respuestas"><h2>Tu Signo Zodiacal es:
+        <div class="respuestas"><h2>Zodiac sign:
             <span class="persona">
         <?php echo $signo->getSignoZodiacal() ?><br><br>
         <?php echo $signo->getFechaLarga() ?>
@@ -54,13 +54,13 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <img src="<?php  echo $signo->getImgZodiaco() ?>" alt="Imagen zodiaco" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Lectura:
+        <div class="respuestas"><h2>Lecture:
         <p class="persona--desc">
             <?php echo $signo->getLectura() ?>
         </p>
     </span></h2></div>
 
-        <div class="respuestas"><h2>Caballero del Zodiaco:
+        <div class="respuestas"><h2>Knights of the Zodiac:
             <span class="persona">
         <?php echo $signo->getNombreCaballero() ?>
     </span></h2></div>
@@ -71,12 +71,12 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Descripción Caballero
+        <div class="respuestas"><h2>Knight Description
         <p class="persona--desc">
        <?php echo $signo->getDescCaballero() ?></p>
     </span></h2></div>
 
-        <a class="btn-volver" href="inicio.php">Volver a inicio</a>
+        <a class="btn-volver" href="inicio_ingles.php">Go back to home</a>
 
         <br>
 

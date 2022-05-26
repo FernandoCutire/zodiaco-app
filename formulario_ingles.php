@@ -1,6 +1,6 @@
-<?
-include ('includes/header_ingles.php');
-encabezado();?>
+<?//
+//include ('includes/header_ingles.php');
+//encabezado(); ?>
 
 
 <?php
@@ -214,5 +214,7 @@ function formulario_ingles()
 
 
 <?php }  ?>
-<?php include ('includes/pie_pag_ingles.php');
-pie(); ?>
+<?//
+//include ('includes/pie_pag_ingles.php');
+//pie();
+//?>
