@@ -30,7 +30,7 @@ function formulario_ingles()
 
         <div class="formulario"><br><br>
             <h2 class="title-form">Know your Horoscope Here...</h2>
-            <form method="POST" action="resultados.php"><br>
+            <form method="POST" action="resultados_ingles.php"><br>
 
 
                 <label>Name:  </label>
