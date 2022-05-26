@@ -1,6 +1,6 @@
 <?php
-include('includes/header.php');
-include('includes/pie_pag.php');
+include('includes/header_ingles.php');
+include('includes/pie_pag_ingles.php');
 include('clases/Persona.php');
 include('clases/SignoZodiacalIngles.php');
 
