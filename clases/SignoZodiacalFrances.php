@@ -1,6 +1,6 @@
 <?php
 
-class SignoZodiacal
+class SignoZodiacalFrances
 {
     private $signoZodiacal;
     private $lectura;
@@ -13,150 +13,209 @@ class SignoZodiacal
     private $fechaLarga;
 
     // Diferentes signos zodiacales
-    public $aries = array("Signo" => "Aries ♈",
-        "FechaLarga" => "March 21 to April 19",
-        "Lectura" => "This day will bring you the possibility of dedicating yourself to things that interest you a lot on a daily basis and for which you do not always have time. Perhaps you decide today to read a book, to study or to put on paper some of the projects that have been on your mind for a long time."
+    public $aries = array("Signo" => "Bélier ♈",
+        "FechaLarga" => "21 mars au 19 avril",
+        "Lectura" => "Cette journée vous apportera la 
+        possibilité de vous consacrer à des choses qui vous intéressent beaucoup au quotidien et pour 
+        lesquelles vous n'avez pas toujours le temps. 
+        Peut-être décidez-vous aujourd'hui de lire un livre, d'étudier ou de mettre sur 
+        papier certains des projets qui vous préoccupent depuis longtemps."
     , "NCaballero" => "Mu Aries"
-    , "DesCaballero" => "Mu is telepathic and telekinetic. Known to have the strongest mental powers among the 12 Gold Saints, he is admitted by Aioria himself in his fight against the Specters in the House of Leo. The Saint of Aries is an incredible manipulator of teleportation, with enough power to transport himself or several people to very distant places, even other dimensions. With his psychic powers he can also create illusions like the ones he made the Silver Saints see and thus confuse the Bronze Saints with the Black Saints. He can fly with the help of his telekinesis."
+    , "DesCaballero" => "Mu est télépathique et télékinésie. Connu pour avoir les pouvoirs mentaux les plus puissants parmi les 12 Saints d'Or, 
+    il est admis par Aioria lui-même dans son combat contre les Spectres dans la Maison du Lion. 
+    Le Saint du Bélier est un incroyable manipulateur de téléportation, avec suffisamment de 
+    puissance pour transporter lui-même ou plusieurs personnes dans des endroits très éloignés, 
+    voire d'autres dimensions. Avec ses pouvoirs psychiques, il peut également créer des illusions comme celles qu'il a fait voir aux Silver Saints et ainsi confondre les Bronze Saints avec les Black Saints. Il peut voler grâce à sa télékinésie."
     , "Imagen" => "./imagenes/caballeros/Mu_Aries-zodiaco.jpg",
-    "zodiaco"=> "imagenes/aries.webp",
+        "zodiaco"=> "imagenes/aries.webp",
         "Fuente" => "https://es.wikipedia.org/wiki/Mu_de_Aries#Habilidades"
     , "Dia_ini" => "21", "Dia_fin" => "19", "Mes_ini" => "3", "Mes_fin" => "4");
 
 
-    public $tauro = array("Signo" => "Tauro ♉",
-        "FechaLarga" => "April 20 to May 20",
-        "Lectura" => "Yours on holidays is what many would like for themselves, Taurus. You usually make plans with people on a daily basis and they come true or not, but you always look for another outlet to have a good time, so that everyone has fun.
-         That is much appreciated, not everyone knows how to organize 
-         themselves to do things in a group, much less change course and pull out a plan B if plan A goes awry.
-"
+    public $tauro = array("Signo" => "Taureau ♉",
+        "FechaLarga" => "20 avril au 20 mai",
+        "Lectura" => "Les vôtres en vacances sont ce que beaucoup aimeraient pour eux-mêmes, 
+        Taureau. Vous faites généralement des projets avec les gens au 
+        quotidien et ils se réalisent ou non, mais vous cherchez toujours un 
+        autre débouché pour passer un bon moment, afin que tout le monde s'amuse. 
+        C'est très appréciable, tout le monde ne sait pas s'organiser pour faire 
+        les choses en groupe, encore moins changer de cap et sortir un plan B si le plan A tourne mal."
     , "NCaballero" => "Aldebarán"
-    , "DesCaballero" => "Aldebaran is a character from the manga and anime Saint Seiya known in Spanish as Los Caballeros del Zodiaco. He was the Taurus Gold Saint until his death at the hands of Niobe of the Deep, after which he was revived by Athena, but died again with the Golden Knights at the Wailing Wall."
+    , "DesCaballero" => "Aldebaran est un personnage du manga et anime Saint Seiya connu en espagnol sous le nom de Los Caballeros del Zodiaco. 
+    Il était le Saint d'Or du Taureau jusqu'à sa mort aux mains de Niobe des Profondeurs, 
+    après quoi il a été ressuscité par Athéna, mais est mort à nouveau avec les Chevaliers d'Or au Mur des Lamentations."
     , "Imagen" => "./imagenes/caballeros/Aldebaran_Tauro-zodiaco.jpg",
     "zodiaco"=> "./imagenes/tauro.webp",
         "Fuente" => "https://es.wikipedia.org/wiki/Aldebar%C3%A1n_de_Tauro"
     , "Dia_ini" => "21", "Dia_fin" => "20", "Mes_ini" => "4", "Mes_fin" => "5");
 
 
-    public $geminis = array("Signo" => "Géminis ♊",
-        "FechaLarga" => "May 21 to June 20",
-        "Lectura" => "This day will bring you the possibility of dedicating 
-        yourself to things that interest you a lot on a daily basis 
-        and for which you do not always have time. 
-        Perhaps you decide today to read a book, 
-        to study or to put on paper some of the projects that have been on your mind for a long time.
-"
+    public $geminis = array("Signo" => "Gémeaux ♊",
+        "FechaLarga" => "21 mai au 20 juin",
+        "Lectura" => "Cette journée vous apportera la possibilité de vous consacrer à 
+        des choses qui vous intéressent beaucoup au quotidien et pour 
+        lesquelles vous n'avez pas toujours le temps. 
+        Peut-être décidez-vous aujourd'hui de lire un livre, d'étudier ou de 
+        mettre sur papier certains des projets qui vous préoccupent depuis longtemps."
     , "NCaballero" => "Saga Géminis"
-    , "DesCaballero" => "Cronos hands the golden dagger to Saga, with it he would kill Athena but he is discovered by Aiolos. Years later he appears as pontiff, apparently under the command of Pontos trying to eliminate Aioria.
-     After Shaka senses an evil cosmos possessing Galan, she calls the golden gathering. 
-     In that same meeting, she sends the Saint of Leo to fight against Hyperion of Darkness who was attacking the Sanctuary. He would later explain to the remaining Gold Saints that the Titans have returned to seize the Megas Drepanon and resurrect the great god Cronos."
+    , "DesCaballero" => "Cronos remet le poignard d'or à Saga, avec lequel il tuerait Athéna mais est découvert par Aiolos. 
+    Des années plus tard, il apparaît comme un pontife, apparemment sous le commandement de Pontos essayant 
+    d'éliminer Aioria. Après que Shaka ait senti un cosmos maléfique posséder Galan, il appelle le 
+    rassemblement d'or. Lors de cette même réunion, 
+    il envoie le Saint du Lion combattre Hypérion des Ténèbres qui attaquait le Sanctuaire. 
+    Il expliquerait ensuite aux Gold Saints restants que les Titans sont revenus pour s'emparer du Megas Drepanon et ressusciter le grand dieu Chronos."
     , "Imagen" => "./imagenes/caballeros/Saga_Gemini-zodiaco.jpg",
     "zodiaco"=> "./imagenes/geminis.webp",    
     "Fuente" => "https://es.wikipedia.org/wiki/Saga_de_G%C3%A9minis#Biograf%C3%ADa"
     , "Dia_ini" => "21", "Dia_fin" => "20", "Mes_ini" => "5", "Mes_fin" => "6");
 
     public $cancer = array("Signo" => "Cáncer ♋",
-        "FechaLarga" => "21 de Junio al 22 de Julio",
-        "Lectura" => "Es una buena semana para proponerte cambios y llevarlos a cabo sin dudas.
-         En tu casa aprovecharás para renovar y buscar la felicidad en pequeños detalles, rodeado de tus seres queridos, que te echarán una mano siempre que la necesites. 
-         En el trabajo te harás escuchar por todos y lucharás con habilidad para mejorar. No te asustará el exceso de trabajo, lograrás en poco tiempo lo que antes te costaba mucho más.
-        "
+        "FechaLarga" => "21 juin au 22 juillet",
+        "Lectura" => "Vous êtes en pleine forme, Cancer, maintenant que vous avez surmonté certains problèmes de baisse 
+        d'énergie qui vous ont affecté presque quotidiennement pendant la semaine, 
+        vous avez retrouvé la santé et l'énergie. Aujourd'hui, cela se voit sur votre visage et dans votre façon de 
+        parler et de bouger. C'est précisément pour cette raison, parce que vous êtes l'image vivante 
+        de la force, que vous pourriez recevoir aujourd'hui un appel ou la visite 
+        d'une personne que vous appréciez et qui vous parlera d'un problème qu'elle ne sait pas résoudre."
     , "NCaballero" => "Deathmask"
-    , "DesCaballero" => "Deathmask es de carácter severo y despiadado. Siempre aprovechando cualquier oportunidad para dejar
-salir su naturaleza cruel sin nunca mostrar algún tipo de miramiento, sólo se propone a seguir su propio
-concepto de la justicia o el ideal que elija seguir regido por otra persona."
+    , "DesCaballero" => "Deathmask est d'un caractère sévère et impitoyable. Saisissant toujours toutes 
+    les occasions de laisser éclater sa nature cruelle sans jamais montrer aucune sorte de 
+    considération, il ne se propose que de suivre sa propre conception de la justice ou 
+    l'idéal qu'il choisit de suivre gouverné par quelqu'un d'autre."
     , "Imagen" => "./imagenes/caballeros/DeathMask_Cancer-zodiaco.jpg",
     "zodiaco"=> "./imagenes/cancer.webp",    
     "Fuente" => "https://es.wikipedia.org/wiki/Death_Mask_de_C%C3%A1ncer"
     , "Dia_ini" => "21", "Dia_fin" => "22", "Mes_ini" => "6", "Mes_fin" => "7");
 
     public $leo = array("Signo" => "Leo ♌",
-        "FechaLarga" => "23 de julio al 22 de agosto",
-        "Lectura" => "Leo, hoy puedes recibir una llamada respecto a un asunto de trabajo. Atiéndela porque es algo importante
-que puede repercutir positivamente en tu futuro y también en tu bolsillo. No es cosa de dejarlo pasar
-despreocupadamente sólo porque es un día festivo. Tu bienestar diario quizá dependa de ello."
+        "FechaLarga" => "23 juillet au 22 août",
+        "Lectura" => "Lion, aujourd'hui, vous pouvez recevoir un appel concernant une question de travail. 
+        Prenez-en soin car c'est quelque chose d'important qui peut avoir un impact positif sur votre 
+        avenir et aussi sur votre poche. Il ne s'agit pas de laisser tomber simplement parce que c'est un jour férié. Votre bien-être quotidien peut en dépendre."
     , "NCaballero" => "Aiola"
-    , "DesCaballero" => "Aiolia fue el Santo de Oro de Leo en la generación del Siglo XX hasta la Guerra contra
-Hades en 1990. Aiolia es un personaje del manga y anime conocido como Los Caballeros del
-Zodiaco y protagonista de los Spin-offs y . Es el hermano menor de , a pesar de
-su personalidad algo explosiva, tiene un corazón puro que identifica rápidamente la justicia, es por eso que
-fue uno de los primeros santos en reconocer la autoridad de. Como su hermano Aiolos fue tachado
-como traidor, Aiolia sentía una obligación de limpiar el nombre de la familia jurando fidelidad al e incluso
-participando voluntariamente en el exterminio de los rebeldes"
+    , "DesCaballero" => "Aiolia (ア イ オ リ ア, Aioria ) était le Gold Saint de Leo dans la génération du 20e siècle 
+    jusqu'à la guerre contre Hadès en 1990. Aiolia est un personnage du manga et de l'anime Saint Seiya 
+    connu sous le nom de The Knights of the Zodiac et le protagoniste des spin-offs. 
+    Episode.G et Soul of Gold. Il est le frère cadet d'Aiolos, malgré sa personnalité quelque peu explosive, 
+    il a un cœur pur qui identifie rapidement la justice, c'est pourquoi il a été l'un des premiers saints à 
+    reconnaître l'autorité d'Athéna. Comme son frère Aiolos a été qualifié de traître, Aiolia s'est sentie 
+    obligée d'effacer le nom de famille en jurant allégeance au pape et même en participant 
+    volontairement à l'extermination des saints de bronze \"voyous\"."
     , "Imagen" => "./imagenes/caballeros/Aiolia_Leo-zodiaco.jpg",
     "zodiaco"=> "./imagenes/leo.webp",    
     "Fuente" => "https://saintseiya.fandom.com/es/wiki/Aiolia_de_Leo"
     , "Dia_ini" => "23", "Dia_fin" => "22", "Mes_ini" => "7", "Mes_fin" => "8");
 
-    public $virgo = array("Signo" => "Virgo ♍",
-        "FechaLarga" => "23 de agosto al 22 de septiembre",
-        "Lectura" => "No es un buen día hoy para temas relacionados con el dinero, Virgo. No lo pongas en la mochila a la espalda
-porque te podrían robar y tampoco pruebes en juegos de azar porque vas a perder con toda seguridad. Es
-más, podrías encontrar a algún conocido que te quiera dar el sablazo y no sabrías decir que no, como te pasa
-a diario. No es que ayudes a quien lo necesita, pero hoy tu dinero corre el riesgo de cambiar de bolsillo sin
-que sea necesario para el que lo va a recibir. Protege tus pertenencias,"
+    public $virgo = array("Signo" => "Vierge ♍",
+        "FechaLarga" => "23 août au 22 septembre",
+        "Lectura" => "Aujourd'hui n'est pas une bonne journée pour les 
+        problèmes liés à l'argent, Vierge. Ne le mettez pas dans votre sac à dos car il 
+        pourrait être volé et ne tentez pas les jeux de hasard car vous perdrez à coup sûr. De plus, vous 
+        pourriez trouver quelqu'un que vous connaissez qui veut vous frapper et vous ne sauriez pas dire non, 
+        comme cela vous arrive tous les jours. Ce n'est pas que vous aidiez ceux qui en ont besoin, mais aujourd'hui 
+        votre argent risque de changer de poche sans que cela soit nécessaire à celui qui va le recevoir. Protégez vos biens"
     , "NCaballero" => "Shaka"
-    , "DesCaballero" => "Shaka es un personaje que destaca por su serenidad y sabiduría, comprendiendo la fisiología del hombre y el mundo a la perfección. Muestra actitudes de arrogancia, superioridad, y sobre todo, de fanfarronería y soberbia en sus combates contra seres que considere inferiores a él, como Santos de Bronce o Specters de baja categoría. A pesar de su tranquilidad, Shaka es un hombre que llega a molestarse con facilidad y actuar con crueldad como se mostró en su encuentro con Ikki; además de que carece totalmente de piedad."
+    , "DesCaballero" => "Shaka est un personnage qui se distingue par sa sérénité et sa sagesse, comprenant parfaitement 
+    la physiologie de l'homme et du monde. Il montre des attitudes d'arrogance, de supériorité et surtout de vantardise et 
+    d'arrogance dans ses combats contre des êtres qu'il considère comme inférieurs à lui, comme les saints 
+    de bronze ou les spectres de classe inférieure. Malgré son calme, Shaka est un homme qui s'énerve 
+    facilement et agit cruellement comme le montre sa rencontre avec Ikki; en plus il manque totalement de pitié."
     , "Imagen" => "./imagenes/caballeros/Shaka_Virgo-zodiaco.jpg",
     "zodiaco"=> "./imagenes/virgo.webp",    
     "Fuente" => "https://saintseiya.fandom.com/es/wiki/Shaka_de_Virgo"
     , "Dia_ini" => "23", "Dia_fin" => "22", "Mes_ini" => "8", "Mes_fin" => "9");
 
     public $libra = array("Signo" => "Libra ♎",
-        "FechaLarga" => "23 de septiembre al 22 de octubre",
-        "Lectura" => "Tienes tendencia a evadirte de la vida real, Libra. Estás viendo a diario todo lo que concierne a tu propia vida como si fuera una película, con personajes ficticios. Y, claro, tú misma te montas el argumento, a tu medida, pero como te gusta sufrir, el film es de género drama. Hoy has de abrir los ojos y darte cuenta de que no hay para tanto, que tus problemas tienen salidas, más de una. Sólo falta que te decidas a ponerte en tu sitio y actuar para que las cosas cambien positivamente para ti."
+        "FechaLarga" => "23 septembre au 22 octobre",
+        "Lectura" => "Vous avez tendance à échapper à la vraie vie, Balance. Vous voyez chaque jour tout ce qui concerne votre propre vie 
+        comme s'il s'agissait d'un film, avec des personnages fictifs. Et, bien sûr, vous montez vous-même l'intrigue, à votre guise, 
+        mais comme vous aimez souffrir, le film est du genre dramatique. Aujourd'hui, vous devez ouvrir les yeux et réaliser qu'il n'y a 
+        pas grand-chose, que vos problèmes ont des solutions, plus d'une. Il vous suffit de décider de vous mettre à votre place et d'agir 
+        pour que les choses changent positivement pour vous."
     , "NCaballero" => "Dohko "
-    , "DesCaballero" => "Caballero de oro de Libra. Nacido en China. Es el único que queda vivo de los dos supervivientes de la anterior guerra santa, llamado por todos respetuosamente \"viejo maestro\". A pesar de que generalmente los caballeros luchan con sus cuerpos, la armadura de Libra tiene armas como espada, lanza, etc. Estas armas tienen el poder suficiente para destruir estrellas, por lo que no se pueden usar sin el permiso de Atenea. Dohko también posee un gran poder en su puño."
+    , "DesCaballero" => "Chevalier d'or Balance. Né en Chine. Il est le seul survivant des deux survivants de la précédente 
+    guerre sainte, respectueusement appelé \"vieux maître\" par tous. Même si les chevaliers se battent généralement avec leur corps, 
+    l'armure de la Balance a des armes comme l'épée, la lance, etc. Ces armes sont assez 
+    puissantes pour détruire les étoiles, elles ne peuvent donc pas être utilisées sans la permission d'Athéna. 
+    Dohko possède également un grand pouvoir dans son poing, comme sa technique mortelle \"Les Cent Dragons de Rozan\"."
     , "Imagen" => "./imagenes/caballeros/Dohko_Libra-zodiaco.jpg",
     "zodiaco"=> "./imagenes/libra.webp",
         "Fuente" => "https://www.saintseiya-gold.com/es/"
     , "Dia_ini" => "23", "Dia_fin" => "22", "Mes_ini" => "9", "Mes_fin" => "10");
 
-    public $escorpio = array("Signo" => "Escorpio ♏",
-        "FechaLarga" => "23 de octubre al 21 de noviembre",
-        "Lectura" => "Ha llegado el día en que puedes mejorar a niveles óptimos tu relación de pareja, Escorpio. Si has pasado por una etapa demasiado rutinaria o se te hacía cansado quedar con esa persona a diario o con mucha frecuencia, hoy esta sensación va a desaparecer. Los astros potencian tu lado más romántico y vas a sorprenderle, porque hacía bastante que no te mostrabas así de cariñosa y apasionada."
+    public $escorpio = array("Signo" => "Scorpion ♏",
+        "FechaLarga" => "23 octobre au 21 novembre",
+        "Lectura" => "Le jour est venu où vous pourrez améliorer votre relation à des niveaux optimaux, Scorpion. 
+        Si vous avez traversé une étape trop routinière ou que cela vous a fatigué de rencontrer cette personne quotidiennement ou très souvent, 
+        aujourd'hui ce sentiment va disparaître. Les astres rehaussent votre côté le plus romantique et vous allez le surprendre, car cela faisait 
+        longtemps que vous n'aviez pas été aussi affectueux et passionné."
     , "NCaballero" => "Milo"
-    , "DesCaballero" => "Caballero de oro de Escorpio. Nacido en Grecia. Al igual que Aioria, es impulsivo y tiene un fuerte sentido de la justicia. Está muy orgulloso de ser un caballero de oro. Su técnica \"Aguja escarlata\", que señalando con la punta de la uña y realizando 15 punzadas llega a paralizar los cinco sentidos del contrincante mediante la paralización del sistema nervioso. El caballero de oro Camus de Acuario es su mejor amigo."
+    , "DesCaballero" => "Chevalier d'or Scorpion. Né en Grèce. Comme Aioria, il est impulsif et a un sens aigu de la justice. Il est très fier d'être chevalier d'or. Sa technique \"Scarlet Needle\", 
+    qui en pointant du bout de l'ongle et en faisant 15 piqûres paralyse les cinq sens de l'adversaire en 
+    paralysant le système nerveux. Le chevalier d'or Verseau Camus est son meilleur ami."
     , "Imagen" => "./imagenes/caballeros/Milo_Escorpio-zodiaco.jpg",
     "zodiaco"=> "./imagenes/escorpio.webp",
         "Fuente" => "https://www.saintseiya-gold.com/es/"
     , "Dia_ini" => "23", "Dia_fin" => "22", "Mes_ini" => "10", "Mes_fin" => "11");
 
-    public $sagitario = array("Signo" => "Sagitario ♐",
-        "FechaLarga" => "23 de noviembre al 20 de diciembre",
-        "Lectura" => "Pocas veces hay ocasión de empezar de nuevo prácticamente de cero en algunos temas que te han causado problemas y preocupaciones a diario, Sagitario, pero hoy tu conjunción astral te brinda esta oportunidad como el mejor regalo. Hoy se producirá una situación que te hará reconducir tu vida."
+    public $sagitario = array("Signo" => "Sagittaire ♐",
+        "FechaLarga" => "23 novembre au 20 décembre",
+        "Lectura" => "Il est rarement possible de repartir pratiquement de zéro sur certains sujets qui vous ont 
+        causé des problèmes et des soucis au quotidien, Sagittaire, mais aujourd'hui votre conjonction 
+        astrale vous offre cette opportunité comme le plus beau des cadeaux. Aujourd'hui, 
+        il y aura une situation qui vous fera rediriger votre vie."
     , "NCaballero" => "Aioros"
-    , "DesCaballero" => "Caballero de oro de Sagitario. Nacido en Grecia. Murió deshonrado como \"el traidor\" por el incidente del intento de asesinato de Atenea. Sin embargo, es un modelo ejemplar de caballero, que a pesar de haberse ganado el desprecio de los demás, salvó a Atenea costándole la vida. Como aspirante al próximo sumo sacerdote, no se espera menos de su excelente espíritu, cuerpo y técnica, sin importarle el sacrificio para elegir el camino correcto. Finalmente, consigue reencontrarse con su hermano pequeño Aioria en el Muro de los Lamentos."
+    , "DesCaballero" => "Appelé \"le traître\" pour l'incident de la tentative 
+    d'assassinat d'Athéna. Cependant, il est un modèle exemplaire de chevalier qui, bien qu'ayant gagné le mépris des autres, 
+    a sauvé Athéna au prix de sa vie. En tant que candidat au prochain grand prêtre, on n'en attend pas moins de son excellent esprit, 
+    de son corps et de sa technique, quel que soit le sacrifice pour choisir le bon chemin. 
+    Enfin, il parvient à retrouver son petit frère Aioria au Mur des Lamentations."
     , "Imagen" => "./imagenes/caballeros/Aioros_Sagitario-zodiaco.jpg",
     "zodiaco"=> "./imagenes/sagitario.webp"
     , "Fuente" => "https://www.saintseiya-gold.com/es/"
     , "Dia_ini" => "23", "Dia_fin" => "20", "Mes_ini" => "11", "Mes_fin" => "12");
 
-    public $capricornio = array("Signo" => "Capricornio ♑",
-        "FechaLarga" => "21 de diciembre al 19 de enero",
-        "Lectura" => "Estás deseando progresar, Capricornio, que haya cambios positivos en tu vida y de hecho los hay, sobre todo en los últimos días. Algunos los has sabido apreciar pero otros no tanto. Hay algo que deseas mucho a diario y que hasta ahora no se ha materializado, pero hoy puede surgirte esta oportunidad."
+    public $capricornio = array("Signo" => "Capricorne ♑",
+        "FechaLarga" => "21 décembre au 19 janvier",
+        "Lectura" => "Vous avez hâte de progresser, Capricorne, qu'il y ait des changements positifs dans votre vie et en fait il y en a, surtout ces derniers jours. 
+        Certains que vous avez appréciés mais d'autres moins. Il y a quelque chose que vous voulez beaucoup chaque jour et qui 
+        jusqu'à présent ne s'est pas matérialisé, mais aujourd'hui cette opportunité peut se présenter."
     , "NCaballero" => "Shura"
-    , "DesCaballero" => "Caballero de oro de Capricornio. Nacido en España. Es el caballero que hirió de muerte a Aioros, después de recibir las ordenes del Sumo sacerdote (Saga). Originalmente tenía una alta lealtad a su diosa. Es resucitado en forma de espectro por Hades, y siguiendo las órdenes de éste, llevó a cabo combates a muerte con sus antiguos compañeros. Con su técnica \"Excálibur\" sus piernas y brazos se convierten en una filada espada sagrada."
+    , "DesCaballero" => "Chevalier d'or Capricorne. Né en Espagne. Il est le chevalier qui a mortellement 
+    blessé Aioros, après avoir reçu les ordres du Grand Prêtre (Saga). Il avait à l'origine une grande loyauté envers sa déesse. 
+    Il est ressuscité sous forme de spectre par Hadès, et suivant les ordres de ce dernier, il effectue des matchs à mort avec ses anciens compagnons. 
+    Avec sa technique \"Excalibur\", ses jambes et ses bras deviennent une épée sacrée tranchante."
     , "Imagen" => "./imagenes/caballeros/Shaka_Virgo-zodiaco.jpg",
     "zodiaco"=> "./imagenes/aries.webp"
     , "Fuente" => "https://www.saintseiya-gold.com/es/"
     , "Dia_ini" => "21", "Dia_fin" => "19", "Mes_ini" => "12", "Mes_fin" => "1");
 
-    public $acuario = array("Signo" => "Acuario ♒",
-        "FechaLarga" => "20 de enero al 18 de febrero",
-        "Lectura" => "Tu día de descanso hoy, Acuario, será ligeramente distinto a lo habitual. Circunstancias personales te llevarán a tener que echar una mano a alguna persona de tu casa, de tu familia o del círculo de tus amistades o de alguien a quien ves a diario. "
+    public $acuario = array("Signo" => "Aquarium ♒",
+        "FechaLarga" => "20 janvier au 18 février",
+        "Lectura" => "Votre journée de repos aujourd'hui, Verseau, sera légèrement différente de la normale. Des circonstances personnelles vous amèneront 
+        à devoir prêter main-forte à quelqu'un de votre foyer, de votre famille ou de votre cercle d'amis ou de quelqu'un que vous côtoyez tous les jours."
     , "NCaballero" => "Camus"
-    , "DesCaballero" => "Caballero de oro de Acuario. Nacido en Francia. Detrás de su frialdad se esconde un corazón caliente. Como guerrero, más que dudar en qué es lo correcto entre lo bueno y lo malo, sigue luchando de acuerdo a sus principios. Por el uso de técnicas de hielo es considerado como \"el mago del agua y el hielo\". Su mayor técnica es la \"Ejecución de la Aurora\", en la cual el espíritu de batalla llega lo más cercano a cero grados."
+    , "DesCaballero" => "Chevalier d'or Verseau. Né en France. Derrière sa froideur se cache un cœur chaleureux. 
+    En tant que guerrier, plutôt que de douter de ce qui est juste entre le bien et le mal, il continue de se battre selon ses principes. 
+    En raison de l'utilisation des techniques de glace, il est considéré comme \"le magicien de l'eau et de la glace\". 
+    Sa plus grande technique est la \"Dawn Execution\", dans laquelle l \'esprit de combat se rapproche le plus possible de zéro degré."
     , "Imagen" => "./imagenes/caballeros/Camus_Acuario-zodiaco.jpg"
     , "zodiaco"=> "./imagenes/acuario.webp", 
     "Fuente" => "https://www.saintseiya-gold.com/es/"
     , "Dia_ini" => "20", "Dia_fin" => "18", "Mes_ini" => "1", "Mes_fin" => "2");
 
-    public $piscis = array("Signo" => "Piscis ♓",
-        "FechaLarga" => "19 de febrero al 20 de marzo",
-        "Lectura" => "Hoy, Piscis, tendrás la mente muy despejada y tu “parabólica” funcionará de maravilla. Sigue los dictados de tu intuición, que te pueden llevar directa hacia el éxito por caminos de lo más insospechado. Si percibes que estás más intuitiva que a diario, aprovéchalo y revisa aquellos temas en los que tenías dudas. Si hoy te viene alguna idea nueva a la cabeza, ten por seguro que es acertada. "
+    public $piscis = array("Signo" => "Poissons ♓",
+        "FechaLarga" => "19 février au 20 mars",
+        "Lectura" => "Aujourd'hui, Poissons, votre esprit sera très clair et votre \"antenne parabolique\" fonctionnera à merveille. 
+        Suivez les préceptes de votre intuition, qui peut vous mener directement au succès sur les chemins les plus inattendus. 
+        Si vous percevez que vous êtes plus intuitif qu'au quotidien, profitez-en et passez en revue les sujets sur 
+        lesquels vous aviez des doutes. Si une nouvelle idée vous vient à l'esprit aujourd'hui, soyez assuré qu'elle est correcte."
     , "NCaballero" => "Afrodita"
-    , "DesCaballero" => "Caballero de oro de Piscis. Nacido en Suecia. El más hermoso entre las 88 constelaciones, tiene la convicción de que \"El poder es justicia\". Aprovecha peculiaridades de las rosas para su cosmos. Su ataque \"Rosas diabólicas reales\" ataca al oponente con el veneno de las rosas rojas. A pesar de creer que \"El poder es justicia\", es el caballero que más desea la paz del mundo."
+    , "DesCaballero" => "Chevalier d'or Poissons. Né en Suède. 
+    Le plus beau des 88 constellations, il a la conviction que \"Le pouvoir c'est la justice\". 
+    Profitez des particularités des roses pour votre cosmos. Son attaque \"Real Devil Roses\" attaque 
+    l\'adversaire avec le poison des roses rouges. Bien qu\'il pense que \"le pouvoir est la justice\", 
+    il est le chevalier qui désire le plus la paix dans le monde."
     , "Imagen" => "./imagenes/caballeros/Afrodita_Piscis-zodiaco.jpg"
     ,"zodiaco"=> "./imagenes/piscis.webp"
     , "Fuente" => "https://www.saintseiya-gold.com/es/"
