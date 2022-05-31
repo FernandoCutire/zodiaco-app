@@ -9,10 +9,10 @@ function formulario_frances()
 
     if(isset($_COOKIE['contador'])){
         setcookie('contador', $_COOKIE['contador'] + 1);
-        $mensaje = "Coute visite: " . $_COOKIE['contador'];
+        $mensaje = "Compteur de visites: " . $_COOKIE['contador'];
     } else {
         setcookie('contador', 1);
-        $mensaje = "Bonjour a neutro sitio";
+        $mensaje = "Bienvenue sur notre site";
     }
 
     ?>
@@ -24,14 +24,9 @@ function formulario_frances()
     </div>
 
     <section class="section">
-
-
-
         <div class="formulario"><br><br>
             <h2 class="title-form">Connaissez votre horoscope ici...</h2>
-            <form method="POST" action="resultados.php"><br>
-
-
+            <form method="POST" action="resultados_frances.php"><br>
                 <label>Nom:  </label>
                 <input type="text" name="nombre" placeholder="Entrez votre nom" autocomplete="off"> <br><br>
 
@@ -82,8 +77,8 @@ function formulario_frances()
                     <option value="5">Mai</option>
                     <option value="6">Juin</option>
                     <option value="7">Juillet</option>
-                    <option value="8">Agosto</option>
-                    <option value="9">Septiembre</option>
+                    <option value="8">Août</option>
+                    <option value="9">Septembre</option>
                     <option value="10">Octobre</option>
                     <option value="11">Novembre</option>
                     <option value="12">Décembre</option>
@@ -191,8 +186,7 @@ function formulario_frances()
                 <div class="center">
                     <input type="submit" name="enviado" value="Envoyer" class="sub">
                     <input type="reset" value="Effacer" class="del"><br><br>
-                    <a class="btn-volver"href="borrarCookie.php">supprimer les cookies</a> 
-
+                    <a class="btn-volver" href="borrarCookie.php">supprimer les cookies</a>
                 </div>
             </form>
 
@@ -201,13 +195,8 @@ function formulario_frances()
                     <?php echo $mensaje; ?>
                 </p>
             </div>
-
-
         </div>
     </section>
-
-
-
 <?php }  ?>
 <?include ('includes/pie_pag_frances.php');
 pie(); ?>

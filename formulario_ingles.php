@@ -1,7 +1,3 @@
-<?//
-//include ('includes/header_ingles.php');
-//encabezado(); ?>
-
 
 <?php
 function formulario_ingles()
@@ -202,19 +198,7 @@ function formulario_ingles()
                     <?php echo $mensaje; ?>
                 </p>
             </div>
-
-
         </div>
-
-
-
     </section>
 
-
-
-
 <?php }  ?>
-<?//
-//include ('includes/pie_pag_ingles.php');
-//pie();
-//?>
