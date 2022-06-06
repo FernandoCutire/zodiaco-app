@@ -319,6 +319,8 @@ padding: 1rem;
 .banderas {
   width: 510px; /* Based on the width of all horizontal images plus their left and right margins */
   margin: 0 auto;
+  
+ display: inline-block; 
 }
 
 
