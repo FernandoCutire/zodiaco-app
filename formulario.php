@@ -194,7 +194,7 @@ function formulario()
 
                 </div>
                 <a class="btn-volver" href="borrarCookie.php" >Borrar Cookie</a> <br><br>
-
+                <a href="inicioSesion/inicio-sesion.php">PÁGINA SEGURA</a>
             </form>
 
             <div class="center">
