@@ -9,6 +9,7 @@
     } else {
         echo "No estas logueado <br>";
         echo "Esta página es restringida!";
+        echo "<BR><a href='inicio-sesion.php'> INICIAR SESIÓN </a>";
     }
 
 ?>

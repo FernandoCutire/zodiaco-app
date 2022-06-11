@@ -193,8 +193,10 @@ function formulario()
                     <input type="reset" value="Borrar" class="del"><br><br>
 
                 </div>
-                <a class="btn-volver" href="borrarCookie.php" >Borrar Cookie</a> <br><br>
-                <a href="inicioSesion/inicio-sesion.php">PÁGINA SEGURA</a>
+                <a class="btn-cookie" href="borrarCookie.php" >Borrar Cookie</a> 
+                <a class="btn-cookie" href="borrar_contador.php" >Reiniciar Contador</a><br>
+
+            
             </form>
 
             <div class="center">

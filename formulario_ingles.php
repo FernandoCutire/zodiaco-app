@@ -188,7 +188,9 @@ function formulario_ingles()
                 <div class="center">
                     <input type="submit" name="enviado" value="Send" class="sub">
                     <input type="reset" value="Delete" class="del"><br><br>
-                    <a class="btn-volver"href="borrarCookie.php">Delete Cookie</a> 
+                    <a class="btn-cookie"href="borrarCookie.php">Delete Cookie</a> 
+                    <a class="btn-cookie" href="borrar_contador_ingles.php">Reset Counter</a>
+
                     <br><br>
                 </div>
             </form>

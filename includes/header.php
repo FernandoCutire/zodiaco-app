@@ -27,6 +27,8 @@ function encabezado()
           <a href="inicio.php">Inicio</a> 
           <a href="https://doc.clickup.com/31045686/d/h/xke1p-283/8ec2db1806fa6a4" target="_blank" >Signos Zodiacales</a>
           <a href="https://github.com/FernandoCutire/zodiaco-app/tree/master" target="_blank">Acerca de</a>
+          <a href="Iniciosesion/inicio-sesion.php">Cerrar Sesion</a>
+
           
         </nav>
       </section>

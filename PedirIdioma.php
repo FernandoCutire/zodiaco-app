@@ -8,6 +8,29 @@ function idiomas()
 {
 
 ?>
+
+<?php
+                    if(isset($_POST['enviar'])) {
+                        if(empty($_POST['usuario']) || empty($_POST['clave'])) {
+                            echo "Debe llenar todos los campos";
+                        }
+                        elseif($_POST['usuario'] == "test" and $_POST['clave'] == "test" ) {
+                            $_SESSION['usuario'] = $_POST['usuario'];
+                            $_SESSION['clave'] = $_POST['clave'];
+                            echo "Has iniciado sesión como " . $_SESSION['usuario'];
+                        }
+                        elseif($_POST['usuario'] == "helly" and $_POST['clave'] == "pera" ) {
+                            $_SESSION['usuario'] = $_POST['usuario'];
+                            $_SESSION['clave'] = $_POST['clave'];
+                            echo "Has iniciado sesión como " . $_SESSION['usuario'];
+                        }
+                        elseif($_POST['usuario'] == "fercu" and $_POST['clave'] == "1234" ) {
+                            $_SESSION['usuario'] = $_POST['usuario'];
+                            $_SESSION['clave'] = $_POST['clave'];
+                            echo "Has iniciado sesión como " . $_SESSION['usuario'];
+                        }
+                    }
+                ?>
 <head>
 <title>Pedir el idioma del usuario</title>
 

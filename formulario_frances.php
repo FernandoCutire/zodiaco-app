@@ -186,7 +186,9 @@ function formulario_frances()
                 <div class="center">
                     <input type="submit" name="enviado" value="Envoyer" class="sub">
                     <input type="reset" value="Effacer" class="del"><br><br>
-                    <a class="btn-volver" href="borrarCookie.php">supprimer les cookies</a>
+                    <a class="btn-cookie" href="borrarCookie.php">supprimer les cookies</a>
+                    <a class="btn-cookie" href="borrar_contador_frances.php">réinitialiser le compteur</a>
+
                 </div>
             </form>
 
