@@ -15,7 +15,7 @@ function formulario()
     }
 
     ?>
-    <html>
+    <html data-dark>
         
     </html>
     <div class="anuncio">
@@ -25,10 +25,10 @@ function formulario()
         <p>🔯 <i>Tendrás tu lectura según tu signo</i></p>
     </div>
 
-    <section class="section">
+    <section class="section" data-dark>
 
-        <div class="formulario"><br><br>
-            <h2 class="title-form">Conoce tu Horóscopo Aquí...</h2>
+        <div class="formulario" data-dark><br><br>
+            <h2 class="title-form" data-dark>Conoce tu Horóscopo Aquí...</h2>
             <form method="POST" action="resultados.php"><br>
 
 
@@ -208,6 +208,7 @@ function formulario()
 
 
     </section>
+    <script src="js/index.js" type="module"></script>
 
 
 

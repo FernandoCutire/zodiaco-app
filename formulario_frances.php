@@ -16,6 +16,7 @@ function formulario_frances()
     }
 
     ?>
+    <html data-dark></html>
     <div class="anuncio">
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
         <p>🔯 <i>Ici, vous connaîtrez votre horoscope</i></p>
@@ -23,9 +24,9 @@ function formulario_frances()
         <p>🔯 <i>Vous aurez votre lecture selon votre signe</i></p>
     </div>
 
-    <section class="section">
-        <div class="formulario"><br><br>
-            <h2 class="title-form">Connaissez votre horoscope ici...</h2>
+    <section class="section" data-dark>
+        <div class="formulario" data-dark><br><br>
+            <h2 class="title-form" data-dark>Connaissez votre horoscope ici...</h2>
             <form method="POST" action="resultados_frances.php"><br>
                 <label>Nom:  </label>
                 <input type="text" name="nombre" placeholder="Entrez votre nom" autocomplete="off"> <br><br>

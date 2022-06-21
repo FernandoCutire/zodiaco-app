@@ -29,12 +29,15 @@ function encabezado()
           <a href="https://github.com/FernandoCutire/zodiaco-app/tree/master" target="_blank">Acerca de</a>
           <a href="Iniciosesion/inicio-sesion.php">Cerrar Sesion</a>
 
+<button class="scroll-top-btn hidden" >&#11014;</button>
+<button class="dark-mode-btn">🌙</button>
           
         </nav>
       </section>
 </header>
 
 
+<script src="js/index.js" type="module"></script>
 
 </body>
 </html>

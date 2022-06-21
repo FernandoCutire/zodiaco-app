@@ -17,24 +17,24 @@ $per->setMesUsuario($_POST['mes']);
 $per->setYearUsuario($_POST['anio']);
 $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
 ?>
-
-    <section class="section_resultado">
+<html data-dark></html>
+    <section class="section_resultado" data-dark>
         <h2 class="title_result">RESULTADO ZODIACAL</h2>
         <img src="imagenes/lecture.png" alt="lecture" style="width: 150px; height: 150px;">
 
-        <div class="respuestas"><h2>Tu Nombre:
-            <span class="persona"><?php echo $per->getNombre() . " ", " " . $per->getApellido(); ?></span>
+        <div class="respuestas"data-dark><h2>Tu Nombre:
+            <span class="persona"data-dark><?php echo $per->getNombre() . " ", " " . $per->getApellido(); ?></span>
         </h2></div>
 
 
 
-        <div class="respuestas"><h2> Fecha de Nacimiento:
+        <div class="respuestas"data-dark><h2> Fecha de Nacimiento:
 
-            <span class="persona">
+            <span class="persona"data-dark>
     <?php echo $per->getDiaUsuario() . " / ", " " . $per->getMesUsuario(), " / " . $per->getYearUsuario(); ?>
     </span></h2></div>
 
-        <div class="respuestas"><h2>Tu edad es:
+        <div class="respuestas"data-dark><h2>Tu edad es:
             <span class="persona">
         <?php
         $per->calcularedad($per->getDiaUsuario(), $per->getMesUsuario(), $per->getYearUsuario());
@@ -42,37 +42,37 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         ?>
     </span></h2></div>
 
-        <div class="respuestas"><h2>Tu Signo Zodiacal es:
-            <span class="persona">
+        <div class="respuestas"data-dark><h2>Tu Signo Zodiacal es:
+            <span class="persona" data-dark>
         <?php echo $signo->getSignoZodiacal() ?><br><br>
         <?php echo $signo->getFechaLarga() ?>
 
     </span></h2></div>
 
-    <div class="respuestas">
-    <span class="persona">
+    <div class="respuestas"data-dark>
+    <span class="persona"data-dark>
         <img src="<?php  echo $signo->getImgZodiaco() ?>" alt="Imagen zodiaco" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Lectura:
-        <p class="persona--desc">
+        <div class="respuestas"data-dark><h2>Lectura:
+        <p class="persona--desc"data-dark>
             <?php echo $signo->getLectura() ?>
         </p>
     </span></h2></div>
 
-        <div class="respuestas"><h2>Caballero del Zodiaco:
-            <span class="persona">
+        <div class="respuestas"data-dark><h2>Caballero del Zodiaco:
+            <span class="persona" data-dark>
         <?php echo $signo->getNombreCaballero() ?>
     </span></h2></div>
 
 
-        <div class="respuestas">
-    <span class="persona">
+        <div class="respuestas"data-dark>
+    <span class="persona"data-dark>
         <img src="<?php  echo $signo->getImagen() ?>" alt="Imagen del caballero" height="90px" width="150px" />
     </span></div>
 
-        <div class="respuestas"><h2>Descripción Caballero
-        <p class="persona--desc">
+        <div class="respuestas"data-dark><h2>Descripción Caballero
+        <p class="persona--desc" data-dark>
        <?php echo $signo->getDescCaballero() ?></p>
     </span></h2></div>
 
@@ -81,6 +81,10 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
         <br>
 
     </section>
+  
+
+
+<script src="js/index.js" type="module"></script>
 <?php
 pie();
 ?>

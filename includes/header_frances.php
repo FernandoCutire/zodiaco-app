@@ -27,11 +27,21 @@ function encabezado()
           <a href="inicio_frances.php">Début</a> 
           <a href="https://doc.clickup.com/31045686/d/h/xke1p-283/8ec2db1806fa6a4" target="_blank" >Signes du zodiaque</a>
           <a href="https://github.com/FernandoCutire/zodiaco-app/tree/master" target="_blank">À propos de</a>
+          <a href="Iniciosesion/inicio-sesion.php">Cerrar Sesion</a>
+
+          
+        </nav>
+      </section>
+</header>
+<button class="scroll-top-btn hidden" >&#11014;</button>
+<button class="dark-mode-btn">🌙</button>
           
         </nav>
       </section>
 </header>
 
+
+<script src="js/index.js" type="module"></script>
 
 
 </body>

@@ -12,20 +12,22 @@ function formulario_ingles()
     }
 
     ?>
-   
-    <div class="anuncio">
+   <html data-dark>
+
+   </html>
+    <div class="anuncio" data-dark>
         <img src="imagenes/future.png" alt="future" style="width: 150px; height: 150px;">
         <p>🔯 <i>Here you will know your Horoscope</i></p>
         <p>🔯 <i>You will know more about yourself</i></p>
         <p>🔯 <i>You will have your reading according to your sign</i></p>
     </div>
 
-    <section class="section">
+    <section class="section" data-dark>
 
 
 
-        <div class="formulario"><br><br>
-            <h2 class="title-form">Know your Horoscope Here...</h2>
+        <div class="formulario" data-dark><br><br>
+            <h2 class="title-form" data-dark>Know your Horoscope Here...</h2>
             <form method="POST" action="resultados_ingles.php"><br>
 
 

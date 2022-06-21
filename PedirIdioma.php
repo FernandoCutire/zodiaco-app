@@ -36,9 +36,9 @@ function idiomas()
 
 
 </head>
-<body>
+<body data-dark>
     <section class="section">
-    <h2 class="title-form">Escoge tu idioma de preferencia</h2>
+    <h2 class="title-form" data-dark>Escoge tu idioma de preferencia</h2>
     <div class="banderas">
 
     <a href="javascript:enviarIdioma('es');"><img src="imagenes/españa.png" alt="españa" style="width: 130px; height: 130px;"></a>
@@ -59,6 +59,8 @@ function idiomas()
 
         }
     </script>
+    <script src="js/index.js" type="module"></script>
+
 </html>
 
 <?php
