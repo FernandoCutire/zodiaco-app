@@ -3,45 +3,52 @@
 
 # Horóscopo
 
-Code and dataset for "Sequence-based bacterial small RNAs prediction using ensemble learning strategies"
+Código para el proyecto de Horóscopo digital
 
 <p align="center">
-  <img src="imgs/horoscopo-dia.png" alt="Tu horoscopo">
+  <img src="resources/imgs/horoscopo-dia.png" alt="Tu horoscopo">
 </p>
 
 </td></tr></table>
 
 ## Table of Contents
 
-- [Description](#description)
-- [Requirements](#requirements)
+- [Descripción](#description)
+- [Requisitos](#requirements)
 - [Instalación](#installation)
-- [Team](#team)
+- [Equipo](#equipo)
 
 
 
 ## Description
 
+Aplicación que te dice tu horóscopo con tu nombre, apellido y fecha de nacimiento.
+
+
+
 ## Requirements
 
 * [PHP ](https://www.python.org/download/releases/2.7/)
 * [Xampp](https://www.anaconda.com/products/individual)
+* 
 
+## Instalación
 
-It is recommended to use a virtual env for this project. For e.g using conda to create the env.
-Is important to notice that the package repDNA is not listed on conda packages, so it is needed to be installed
-separately using `pip install repDNA=1.1.4`, inside your virtual env.
-
-
-## Installation
-
-Clone the repository
+Clona el repositorio
 ```bash
 git clone https://github.com/FernandoCutire/zodiaco-app
 ```
 
-## Team
+Coloca la carpeta en tu carpeta htdocs ubicada en xampp
+
+Enciende el servidor apache en tu xampp
+
+Entra a localhost/nombre-carpeta
+```bash
+Por defecto está localhost/zodiaco-app
+```
+
+## Equipo
 
 Fernando Cutire
-Gabriel Diaz
-Joanthan Gamero
+Hellynger St. Rose
