@@ -11,7 +11,7 @@ Código para el proyecto de Horóscopo digital
 
 </td></tr></table>
 
-## Table of Contents
+## Tabla de Contenidos
 
 - [Descripción](#description)
 - [Requisitos](#requirements)
@@ -25,12 +25,18 @@ Código para el proyecto de Horóscopo digital
 Aplicación que te dice tu horóscopo con tu nombre, apellido y fecha de nacimiento.
 
 
+Video explicativo [aquí](https://www.loom.com/share/05cf1bfb2e0a4e529cbbe22d6a1a7a59)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+    <iframe src="https://www.loom.com/embed/05cf1bfb2e0a4e529cbbe22d6a1a7a59" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+</iframe>
+</div>
+
 
 ## Requirements
 
-* [PHP ](https://www.python.org/download/releases/2.7/)
-* [Xampp](https://www.anaconda.com/products/individual)
-* 
+* PHP 
+* Xampp
+
 
 ## Instalación
 
@@ -45,7 +51,7 @@ Enciende el servidor apache en tu xampp
 
 Entra a localhost/nombre-carpeta
 ```bash
-Por defecto está localhost/zodiaco-app
+Por defecto está http://localhost/zodiaco-app/resources/views/inicio/inicio.php
 ```
 
 ## Equipo
