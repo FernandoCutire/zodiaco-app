@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-dark>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="icon" href="../imagenes/horoscopo.png">
     <link rel="stylesheet" href="../estilos/style.css">
 </head>
-    <body>
+    <body data-dark>
 
     <header class="header">
     <section class="container"> 
@@ -33,10 +33,10 @@
 
 
 </form>
-<section class="section">
+<section class="section" data-dark>
 
-<div class="formulario"><br><br>
-    <h2 class="title-form">Iniciar Sesion</h2>
+<div class="formulario" data-dark><br><br>
+    <h2 class="title-form" data-dark>Iniciar Sesion</h2>
     <form name="login" method="post" action="../seleccionIdiomas.php"><br>
 
 

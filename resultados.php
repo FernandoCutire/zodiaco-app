@@ -35,7 +35,7 @@ $signo->getZodiaco($per->getDiaUsuario(), $per->getMesUsuario())
     </span></h2></div>
 
         <div class="respuestas"data-dark><h2>Tu edad es:
-            <span class="persona">
+            <span class="persona" data-dark>
         <?php
         $per->calcularedad($per->getDiaUsuario(), $per->getMesUsuario(), $per->getYearUsuario());
         echo $per->getEdad();
