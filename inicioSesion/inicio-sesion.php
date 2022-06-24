@@ -1,8 +1,4 @@
 
-<?php
-    session_start();
-
-?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -14,7 +10,7 @@
     <link rel="icon" href="../imagenes/horoscopo.png">
     <link rel="stylesheet" href="../estilos/style.css">
 </head>
-    <body data-dark>
+    <body>
 
     <header class="header">
     <section class="container"> 
@@ -33,11 +29,14 @@
         </nav>
       </section>
 </header>
+     
 
-<section class="section" data-dark>
 
-<div class="formulario" data-dark><br><br>
-    <h2 class="title-form" data-dark>Iniciar Sesion</h2>
+</form>
+<section class="section">
+
+<div class="formulario"><br><br>
+    <h2 class="title-form">Iniciar Sesion</h2>
     <form name="login" method="post" action="../seleccionIdiomas.php"><br>
 
 
@@ -47,9 +46,10 @@
         <label>Contraseña:  </label>
         <input name="clave" type="password" id="clave"><br><br>
 
+
         <div class="center">
-      
-<input name="enviar" type="submit" id="enviar" value="Enviar" class="sub"></a><br><br>
+     <a> 
+<input name="enviar" type="submit" id="enviar" value="enviar" class="sub"></a><br><br>
 <a href="segura.php" data-dark>PÁGINA SEGURA</a>
         </div>
     </form></div></section>
