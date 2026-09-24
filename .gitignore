@@ -1,5 +1,2 @@
 ./idea
-temp_auto_push.bat
 .idea
-.gitignore
-branch_structure.json
